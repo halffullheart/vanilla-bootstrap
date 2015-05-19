@@ -1,26 +1,62 @@
 {
   "heading": {
-    "label": "Heading size",
+    "label": "Heading level",
     "type": "enum",
     "options": [
-      "h1",
-      "h2",
-      "h3",
-      "h4",
-      "h5",
-      "h6"
+      {
+        "label": "Heading 1",
+        "value": "h1"
+      },
+      {
+        "label": "Heading 2",
+        "value": "h2"
+      },
+      {
+        "label": "Heading 3",
+        "value": "h3"
+      },
+      {
+        "label": "Heading 4",
+        "value": "h4"
+      },
+      {
+        "label": "Heading 5",
+        "value": "h5"
+      },
+      {
+        "label": "Heading 6",
+        "value": "h6"
+      }
     ]
   },
   "labelStyle": {
     "label": "Label style",
     "type": "enum",
     "options": [
-      "label-default",
-      "label-primary",
-      "label-success",
-      "label-info",
-      "label-warning",
-      "label-danger"
+      {
+        "label": "Default",
+        "value": "label-default"
+      },
+      {
+        "label": "Primary",
+        "value": "label-primary"
+      },
+      {
+        "label": "Success",
+        "value": "label-success"
+      },
+      {
+        "label": "Info",
+        "value": "label-info"
+      },
+      {
+        "label": "Warning",
+        "value": "label-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "label-danger"
+      }
     ]
   }
 }
