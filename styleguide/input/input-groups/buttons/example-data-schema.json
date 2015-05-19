@@ -3,10 +3,22 @@
     "label": "Input size",
     "type": "enum",
     "options": [
-      "input-group-lg",
-      null,
-      "input-group-sm",
-      "input-group-xm"
+      {
+        "label": "Large",
+        "value": "input-group-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "input-group-sm"
+      },
+      {
+        "label": "Extra small",
+        "value": "input-group-xm"
+      }
     ]
   }
 }
