@@ -1,0 +1,12 @@
+{
+  "alertStyle": {
+    "label": "Alert level",
+    "type": "enum",
+    "options": [
+      "alert-success",
+      "alert-info",
+      "alert-warning",
+      "alert-danger"
+    ]
+  }
+}

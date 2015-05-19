@@ -1,0 +1,24 @@
+<ul class="nav {{tabStyle}} {{stacked}} {{justified}}">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+
+<!-- Example with dropdown menu -->
+<ul class="nav {{tabStyle}} {{stacked}} {{justified}}">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Help</a></li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Account <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Payment</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign out</a></li>
+    </ul>
+  </li>
+</ul>

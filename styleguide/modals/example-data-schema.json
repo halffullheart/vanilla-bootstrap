@@ -1,0 +1,7 @@
+{
+  "fade": {
+    "label": "Fade in",
+    "type": "optional-string",
+    "falue": "fade"
+  }
+}

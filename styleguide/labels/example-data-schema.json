@@ -1,0 +1,26 @@
+{
+  "heading": {
+    "label": "Heading size",
+    "type": "enum",
+    "options": [
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6"
+    ]
+  },
+  "labelStyle": {
+    "label": "Label style",
+    "type": "enum",
+    "options": [
+      "label-default",
+      "label-primary",
+      "label-success",
+      "label-info",
+      "label-warning",
+      "label-danger"
+    ]
+  }
+}

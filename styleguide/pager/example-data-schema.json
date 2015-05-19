@@ -1,0 +1,12 @@
+{
+  "disabledClass": {
+    "label": "Disable basic example",
+    "type": "optional-string",
+    "value": "class=\"disabled\""
+  },
+  "disabled": {
+    "label": "Disable second example",
+    "type": "optional-string",
+    "value": "disabled"
+  }
+}

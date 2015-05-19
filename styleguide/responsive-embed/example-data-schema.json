@@ -1,0 +1,10 @@
+{
+  "aspectRatio": {
+    "label": "Aspect ratio",
+    "type": "enum",
+    "options": [
+      "16by9",
+      "4by3"
+    ]
+  }
+}

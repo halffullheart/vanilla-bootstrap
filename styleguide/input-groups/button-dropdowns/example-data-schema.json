@@ -1,0 +1,12 @@
+{
+  "inputSize": {
+    "label": "Input size",
+    "type": "enum",
+    "options": [
+      "input-group-lg",
+      null,
+      "input-group-sm",
+      "input-group-xm"
+    ]
+  }
+}

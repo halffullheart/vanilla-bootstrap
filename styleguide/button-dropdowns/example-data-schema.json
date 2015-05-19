@@ -1,0 +1,20 @@
+{
+  "buttonSize": {
+    "label": "Button size",
+    "type": "enum",
+    "options": [
+      "btn-lg",
+      null,
+      "btn-sm",
+      "btn-xs"
+    ]
+  },
+  "openDirection": {
+    "label": "Open direction",
+    "type": "enum",
+    "options": [
+      null,
+      "dropup"
+    ]
+  }
+}

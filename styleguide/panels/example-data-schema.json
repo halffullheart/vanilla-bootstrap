@@ -1,0 +1,11 @@
+{
+  "panelStyle": "Contextual panel style",
+  "type": "enum",
+  "options": [
+    "panel-primary",
+    "panel-success",
+    "panel-info",
+    "panel-warning",
+    "panel-danger"
+  ]
+}

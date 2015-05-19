@@ -1,0 +1,11 @@
+{
+  "badgeContent": {
+    "label": "Number of new/undread items",
+    "type": "enum",
+    "options": [
+      "1",
+      "42",
+      ""
+    ]
+  }
+}
