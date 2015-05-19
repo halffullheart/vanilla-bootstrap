@@ -18,10 +18,22 @@
     "label": "Navbar placement",
     "type": "enum",
     "options": [
-      null,
-      "navbar-fixed-top",
-      "navbar-fixed-bottom",
-      "navbar-static-top"
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Fixed to top",
+        "value": "navbar-fixed-top"
+      },
+      {
+        "label": "Fixed to bottom",
+        "value": "navbar-fixed-bottom"
+      },
+      {
+        "label": "Static top",
+        "value": "navbar-static-top"
+      }
     ]
   }
 }
