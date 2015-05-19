@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "label": "Popover placement",
+    "type": "enum",
+    "options": [
+      "left",
+      "top",
+      "bottom",
+      "right"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "openDirection": {
+    "label": "Open direction",
+    "type": "enum",
+    "options": [
+      "dropdown",
+      "dropup"
+    ]
+  }
+}
