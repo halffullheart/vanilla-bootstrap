@@ -3,18 +3,36 @@
     "label": "Button size",
     "type": "enum",
     "options": [
-      "btn-lg",
-      null,
-      "btn-sm",
-      "btn-xs"
+      {
+        "label": "Large",
+        "value": "btn-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "btn-sm"
+      },
+      {
+        "label": "Extra small",
+        "value": "btn-xs"
+      }
     ]
   },
   "openDirection": {
     "label": "Open direction",
     "type": "enum",
     "options": [
-      null,
-      "dropup"
+      {
+        "label": "Down",
+        "value": ""
+      },
+      {
+        "label": "Up",
+        "value": "dropup"
+      }
     ]
   }
 }
