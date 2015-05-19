@@ -1,1 +1,0 @@
-$("#dropdownMenu1").dropdown();

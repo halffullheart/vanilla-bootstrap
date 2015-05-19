@@ -1,1 +1,0 @@
-$('#exampleModalLiveDemo').modal();
