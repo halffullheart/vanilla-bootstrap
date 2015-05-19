@@ -3,10 +3,22 @@
     "label": "Tooltip placement",
     "type": "enum",
     "options": [
-      "left",
-      "top",
-      "bottom",
-      "right"
+      {
+        "label": "Left",
+        "value": "left"
+      },
+      {
+        "label": "Top",
+        "value": "top"
+      },
+      {
+        "label": "Bottom",
+        "value": "bottom"
+      },
+      {
+        "label": "Right",
+        "value": "right"
+      }
     ]
   }
 }
