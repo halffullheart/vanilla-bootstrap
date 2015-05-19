@@ -3,9 +3,18 @@
     "label": "Size",
     "type": "enum",
     "options": [
-      "pagination-sm",
-      null,
-      "pagination-lg"
+      {
+        "label": "Large",
+        "value": "pagination-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "pagination-sm"
+      }
     ]
   }
 }
