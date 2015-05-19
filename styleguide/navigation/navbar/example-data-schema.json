@@ -1,0 +1,27 @@
+{
+  "textAlign": {
+    "label": "Right align free text",
+    "type": "optional-string",
+    "value": "navbar-right"
+  },
+  "menuAlign": {
+    "label": "Right align menu",
+    "type": "optional-string",
+    "value": "navbar-right"
+  },
+  "inverted": {
+    "label": "Invert colors",
+    "type": "optional-string",
+    "value": "navbar-inverse"
+  },
+  "placement": {
+    "label": "Navbar placement",
+    "type": "enum",
+    "options": [
+      null,
+      "navbar-fixed-top",
+      "navbar-fixed-bottom",
+      "navbar-static-top"
+    ]
+  }
+}

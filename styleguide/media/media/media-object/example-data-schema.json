@@ -1,0 +1,11 @@
+{
+  "mediaAlign": {
+    "label": "Alignment of media",
+    "type": "enum",
+    "options": [
+      null,
+      "media-middle",
+      "media-bottom"
+    ]
+  }
+}

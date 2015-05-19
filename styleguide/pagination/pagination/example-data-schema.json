@@ -1,0 +1,11 @@
+{
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      "pagination-sm",
+      null,
+      "pagination-lg"
+    ]
+  }
+}

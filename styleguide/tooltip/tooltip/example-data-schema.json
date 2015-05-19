@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "label": "Tooltip placement",
+    "type": "enum",
+    "options": [
+      "left",
+      "top",
+      "bottom",
+      "right"
+    ]
+  }
+}
