@@ -3,9 +3,18 @@
     "label": "Alignment of media",
     "type": "enum",
     "options": [
-      null,
-      "media-middle",
-      "media-bottom"
+      {
+        "label": "Top",
+        "value": ""
+      },
+      {
+        "label": "Middle",
+        "value": "media-middle"
+      },
+      {
+        "label": "Bottom",
+        "value": "media-bottom"
+      }
     ]
   }
 }
