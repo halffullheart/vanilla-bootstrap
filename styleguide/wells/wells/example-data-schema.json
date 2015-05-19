@@ -3,9 +3,18 @@
     "label": "Well size",
     "type": "enum",
     "options": [
-      "well-sm",
-      null,
-      "well-lg"
+      {
+        "label": "Small",
+        "value": "well-sm"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "well-lg"
+      }
     ]
   }
 }
