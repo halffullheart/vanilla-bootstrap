@@ -1,13 +1,34 @@
 {
-  "panelStyle": {
-    "label": "Contextual panel style",
-    "type": "enum",
-    "options": [
-      "panel-primary",
-      "panel-success",
-      "panel-info",
-      "panel-warning",
-      "panel-danger"
+  "panelClasses": {
+    "type": "css-class",
+    "staticClasses": ["panel"],
+    "optionalClasses": [
+      {
+        "label": "Contextual panel style",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Primary",
+            "value": "panel-primary"
+          },
+          {
+            "label": "Success",
+            "value": "panel-success"
+          },
+          {
+            "label": "Info",
+            "value": "panel-info"
+          },
+          {
+            "label": "Warning",
+            "value": "panel-warning"
+          },
+          {
+            "label": "Danger",
+            "value": "panel-danger"
+          }
+        ]
+      }
     ]
   }
 }
