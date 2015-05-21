@@ -1,20 +1,32 @@
 {
-  "tabStyle": {
-    "label": "Tab style",
-    "type": "enum",
-    "options": [
-      "nav-tabs",
-      "nav-pills"
+  "navClasses": {
+    "type": "css-class",
+    "staticClasses": ["nav"],
+    "optionalClasses": [
+      {
+        "label": "Tab style",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Tabs",
+            "value": "nav-tabs"
+          },
+          {
+            "label": "Pills",
+            "value": "nav-pills"
+          }
+        ]
+      },
+      {
+        "label": "Stacked",
+        "type": "optional-string",
+        "value": "nav-stacked"
+      },
+      {
+        "label": "Justified",
+        "type": "optional-string",
+        "value": "nav-justified"
+      }
     ]
-  },
-  "stacked": {
-    "label": "Stacked",
-    "type": "optional-string",
-    "value": "nav-stacked"
-  },
-  "justified": {
-    "label": "Justified",
-    "type": "optional-string",
-    "value": "nav-justified"
   }
 }

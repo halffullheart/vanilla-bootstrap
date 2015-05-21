@@ -1,37 +1,42 @@
 {
-  "orientation": {
-    "label": "Orientation",
-    "type": "enum",
-    "options": [
+  "buttonGroupClasses": {
+    "type": "css-class",
+    "optionalClasses": [
       {
-        "label": "Horizontal",
-        "value": "btn-group"
+        "label": "Orientation",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Horizontal",
+            "value": "btn-group"
+          },
+          {
+            "label": "Vertical",
+            "value": "btn-group-vertical"
+          }
+        ]
       },
       {
-        "label": "Vertical",
-        "value": "btn-group-vertical"
-      }
-    ]
-  },
-  "buttonSize": {
-    "label": "Button size",
-    "type": "enum",
-    "options": [
-      {
-        "label": "Large",
-        "value": "btn-group-lg"
-      },
-      {
-        "label": "Default",
-        "value": ""
-      },
-      {
-        "label": "Small",
-        "value": "btn-group-sm"
-      },
-      {
-        "label": "Extra small",
-        "value": "btn-group-sm"
+        "label": "Button size",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Large",
+            "value": "btn-group-lg"
+          },
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Small",
+            "value": "btn-group-sm"
+          },
+          {
+            "label": "Extra small",
+            "value": "btn-group-sm"
+          }
+        ]
       }
     ]
   }

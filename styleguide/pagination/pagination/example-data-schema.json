@@ -1,19 +1,25 @@
 {
-  "size": {
-    "label": "Size",
-    "type": "enum",
-    "options": [
+  "paginationClasses": {
+    "type": "css-class",
+    "staticClasses": ["pagination"],
+    "optionalClasses": [
       {
-        "label": "Large",
-        "value": "pagination-lg"
-      },
-      {
-        "label": "Default",
-        "value": ""
-      },
-      {
-        "label": "Small",
-        "value": "pagination-sm"
+        "label": "Size",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Large",
+            "value": "pagination-lg"
+          },
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Small",
+            "value": "pagination-sm"
+          }
+        ]
       }
     ]
   }

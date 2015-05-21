@@ -1,12 +1,34 @@
 {
-  "disabledClass": {
-    "label": "Disable basic example",
-    "type": "optional-string",
-    "value": "class=\"disabled\""
+  "genericClasses": {
+    "type": "css-class",
+    "optionalClasses": [
+      {
+        "label": "Disable buttons",
+        "type": "optional-string",
+        "value": "disabled"
+      }
+    ]
   },
-  "disabled": {
-    "label": "Disable second example",
-    "type": "optional-string",
-    "value": "disabled"
+  "previousClasses": {
+    "type": "css-class",
+    "staticClasses": "previous",
+    "optionalClasses": [
+      {
+        "label": "Disable previous button",
+        "type": "optional-string",
+        "value": "disabled"
+      }
+    ]
+  },
+  "nextClasses": {
+    "type": "css-class",
+    "staticClasses": "next",
+    "optionalClasses": [
+      {
+        "label": "Disable next button",
+        "type": "optional-string",
+        "value": "disabled"
+      }
+    ]
   }
 }

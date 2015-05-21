@@ -1,19 +1,25 @@
 {
-  "size": {
-    "label": "Well size",
-    "type": "enum",
-    "options": [
+  "wellClasses": {
+    "type": "css-class",
+    "staticClasses": ["well"],
+    "optionalClasses": [
       {
-        "label": "Small",
-        "value": "well-sm"
-      },
-      {
-        "label": "Default",
-        "value": ""
-      },
-      {
-        "label": "Large",
-        "value": "well-lg"
+        "label": "Well size",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Small",
+            "value": "well-sm"
+          },
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Large",
+            "value": "well-lg"
+          }
+        ]
       }
     ]
   }

@@ -1,12 +1,18 @@
 {
-  "alertStyle": {
-    "label": "Alert level",
-    "type": "enum",
-    "options": [
-      "alert-success",
-      "alert-info",
-      "alert-warning",
-      "alert-danger"
+  "alertClasses": {
+    "type": "css-class",
+    "staticClasses": ["alert"],
+    "optionalClasses": [
+      {
+        "label": "Alert level",
+        "type": "enum",
+        "options": [
+          "alert-success",
+          "alert-info",
+          "alert-warning",
+          "alert-danger"
+        ]
+      }
     ]
   }
 }

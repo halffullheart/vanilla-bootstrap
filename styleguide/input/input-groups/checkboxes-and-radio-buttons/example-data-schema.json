@@ -1,23 +1,29 @@
 {
-  "inputSize": {
-    "label": "Input size",
-    "type": "enum",
-    "options": [
+  "inputGroupClasses": {
+    "type": "css-class",
+    "staticClasses": ["input-group"],
+    "optionalClasses": [
       {
-        "label": "Large",
-        "value": "input-group-lg"
-      },
-      {
-        "label": "Default",
-        "value": ""
-      },
-      {
-        "label": "Small",
-        "value": "input-group-sm"
-      },
-      {
-        "label": "Extra small",
-        "value": "input-group-xm"
+        "label": "Input size",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Large",
+            "value": "input-group-lg"
+          },
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Small",
+            "value": "input-group-sm"
+          },
+          {
+            "label": "Extra small",
+            "value": "input-group-xm"
+          }
+        ]
       }
     ]
   }

@@ -1,38 +1,65 @@
 {
-  "textAlign": {
-    "label": "Right align free text",
-    "type": "optional-string",
-    "value": "navbar-right"
-  },
-  "menuAlign": {
-    "label": "Right align menu",
-    "type": "optional-string",
-    "value": "navbar-right"
-  },
-  "inverted": {
-    "label": "Invert colors",
-    "type": "optional-string",
-    "value": "navbar-inverse"
-  },
-  "placement": {
-    "label": "Navbar placement",
-    "type": "enum",
-    "options": [
+  "navbarClasses": {
+    "type": "css-class",
+    "staticClasses": ["navbar", "navbar-default"],
+    "optionalClasses": [
       {
-        "label": "Default",
-        "value": ""
+        "label": "Style",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Default",
+            "value": "navbar-default"
+          },
+          {
+            "label": "Inverse",
+            "value": "navbar-inverse"
+          }
+        ]
       },
       {
-        "label": "Fixed to top",
-        "value": "navbar-fixed-top"
-      },
+        "label": "Placement",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Fixed to top",
+            "value": "navbar-fixed-top"
+          },
+          {
+            "label": "Fixed to bottom",
+            "value": "navbar-fixed-bottom"
+          },
+          {
+            "label": "Static top",
+            "value": "navbar-static-top"
+          }
+        ]
+      }
+    ]
+  },
+  "textClasses": {
+    "type": "css-class",
+    "staticClasses": ["navbar-text"],
+    "optionalClasses": [
       {
-        "label": "Fixed to bottom",
-        "value": "navbar-fixed-bottom"
-      },
+        "label": "Right align free text",
+        "type": "optional-string",
+        "value": "navbar-right"
+      }
+    ]
+  },
+  "menuClasses": {
+    "type": "css-class",
+    "staticClasses": ["nav", "navbar-nav"],
+    "optionalClasses": [
       {
-        "label": "Static top",
-        "value": "navbar-static-top"
+        "label": "Right align menu",
+        "type": "optional-string",
+        "value": "navbar-right"
       }
     ]
   }

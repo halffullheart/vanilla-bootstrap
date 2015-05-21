@@ -29,33 +29,39 @@
       }
     ]
   },
-  "labelStyle": {
-    "label": "Label style",
-    "type": "enum",
-    "options": [
+  "labelClasses": {
+    "type": "css-class",
+    "staticClasses": ["label"],
+    "optionalClasses": [
       {
-        "label": "Default",
-        "value": "label-default"
-      },
-      {
-        "label": "Primary",
-        "value": "label-primary"
-      },
-      {
-        "label": "Success",
-        "value": "label-success"
-      },
-      {
-        "label": "Info",
-        "value": "label-info"
-      },
-      {
-        "label": "Warning",
-        "value": "label-warning"
-      },
-      {
-        "label": "Danger",
-        "value": "label-danger"
+        "label": "Label style",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Default",
+            "value": "label-default"
+          },
+          {
+            "label": "Primary",
+            "value": "label-primary"
+          },
+          {
+            "label": "Success",
+            "value": "label-success"
+          },
+          {
+            "label": "Info",
+            "value": "label-info"
+          },
+          {
+            "label": "Warning",
+            "value": "label-warning"
+          },
+          {
+            "label": "Danger",
+            "value": "label-danger"
+          }
+        ]
       }
     ]
   }
