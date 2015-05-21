@@ -1,24 +1,31 @@
 {
-  "contextClass" : {
-    "label": "Context",
-    "type" : "enum",
-    "options": [
-      {"label" : "None", "value" : ""},
-      {"label" : "Success", "value" : "progress-bar-success"},
-      {"label" : "Info", "value" : "progress-bar-info"},
-      {"label" : "Warning", "value" : "progress-bar-warning"},
-      {"label" : "Danger", "value" : "progress-bar-danger"}
-    ]},
-  "percent" : {
+  "progressClasses" : {
+    "type": "css-class",
+    "staticClasses": ["progress-bar"],
+    "optionalClasses": [
+      {
+        "label": "Context",
+        "type" : "enum",
+        "options": [
+          {"label" : "None", "value" : ""},
+          {"label" : "Success", "value" : "progress-bar-success"},
+          {"label" : "Info", "value" : "progress-bar-info"},
+          {"label" : "Warning", "value" : "progress-bar-warning"},
+          {"label" : "Danger", "value" : "progress-bar-danger"}
+        ]
+      },
+      {
+        "label" : "Striped",
+        "type" : "optional-string",
+        "value" : "progress-bar-striped"
+      }
+    ]
+  },
+  "percent": {
     "label": "%",
     "type" : "number",
     "min" : 0,
     "max" : 100,
     "step" : 1
-  },
-  "striped" : {
-    "label" : "Striped",
-    "type" : "optional-string",
-    "value" : "progress-bar-striped"
   }
 }
