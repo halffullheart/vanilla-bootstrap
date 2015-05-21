@@ -1,0 +1,5 @@
+{
+  "class" : { "label": "the class of classes", "options": [
+    "primary", "success", "cancel"
+    ]}
+}
