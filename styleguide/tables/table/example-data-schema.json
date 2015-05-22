@@ -1,0 +1,59 @@
+{
+  "tableClasses": {
+    "type": "css-class",
+    "staticClasses": ["table"],
+    "optionalClasses": [
+      {
+        "label": "Striped",
+        "type": "optional-string",
+        "value": "table-striped"
+      },
+      {
+        "label": "Bordered",
+        "type": "optional-string",
+        "value": "table-bordered"
+      },
+      {
+        "label": "Hover rows",
+        "type": "optional-string",
+        "value": "table-hover"
+      },
+      {
+        "label": "Condensed",
+        "type": "optional-string",
+        "value": "table-condensed"
+      }
+    ]
+  },
+  "contextClasses": {
+    "type": "css-class",
+    "optionalClasses": [
+      {
+        "label": "Context",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Active",
+            "value": "active"
+          },
+          {
+            "label": "Success",
+            "value": "success"
+          },
+          {
+            "label": "Warning",
+            "value": "warning"
+          },
+          {
+            "label": "Danger",
+            "value": "danger"
+          },
+          {
+            "label": "Info",
+            "value": "info"
+          }
+        ]
+      }
+    ]
+  }
+}
