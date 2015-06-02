@@ -1,4 +1,5 @@
-"formClasses": {
+{
+  "formClasses": {
     "type": "css-class",
     "optionalClasses": [
       {
