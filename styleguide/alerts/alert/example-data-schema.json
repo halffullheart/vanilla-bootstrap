@@ -14,5 +14,21 @@
         ]
       }
     ]
+  },
+  "dismissAlertClasses": {
+    "type": "css-class",
+    "staticClasses": ["alert", "alert-dismissible"],
+    "optionalClasses": [
+      {
+        "label": "Alert level",
+        "type": "enum",
+        "options": [
+          "alert-success",
+          "alert-info",
+          "alert-warning",
+          "alert-danger"
+        ]
+      }
+    ]
   }
 }
