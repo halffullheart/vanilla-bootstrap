@@ -56,9 +56,19 @@
         ]
       },
       {
-        "label": "Button size",
+        "label": "Disabled",
         "type": "optional-string",
         "value": "disabled"
+      },
+      {
+        "label": "Active",
+        "type": "optional-string",
+        "value": "active"
+      },
+      {
+        "label": "Block level",
+        "type": "optional-string",
+        "value": "btn-block"
       }
     ]
   }
