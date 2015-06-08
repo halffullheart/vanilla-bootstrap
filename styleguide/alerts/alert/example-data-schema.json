@@ -7,10 +7,22 @@
         "label": "Alert level",
         "type": "enum",
         "options": [
-          "alert-success",
-          "alert-info",
-          "alert-warning",
-          "alert-danger"
+          {
+            "label": "Success",
+            "value": "alert-success"
+          },
+          {
+            "label": "Info",
+            "value": "alert-info"
+          },
+          {
+            "label": "Warning",
+            "value": "alert-warning"
+          },
+          {
+            "label": "Danger",
+            "value": "alert-danger"
+          }
         ]
       }
     ]
@@ -23,10 +35,22 @@
         "label": "Alert level",
         "type": "enum",
         "options": [
-          "alert-success",
-          "alert-info",
-          "alert-warning",
-          "alert-danger"
+          {
+            "label": "Success",
+            "value": "alert-success"
+          },
+          {
+            "label": "Info",
+            "value": "alert-info"
+          },
+          {
+            "label": "Warning",
+            "value": "alert-warning"
+          },
+          {
+            "label": "Danger",
+            "value": "alert-danger"
+          }
         ]
       }
     ]
