@@ -18,6 +18,11 @@
         "label" : "Striped",
         "type" : "optional-string",
         "value" : "progress-bar-striped"
+      },
+      {
+        "label" : "Animated",
+        "type" : "optional-string",
+        "value" : "active"
       }
     ]
   },
