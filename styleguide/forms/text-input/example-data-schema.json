@@ -52,6 +52,26 @@
       }
     ]
   },
+  "inputType": {
+    "label": "Type",
+    "type": "enum",
+    "options": [
+      "text",
+      "password",
+      "datetime",
+      "datetime-local",
+      "date",
+      "month",
+      "time",
+      "week",
+      "number",
+      "email",
+      "url",
+      "search",
+      "tel",
+      "color"
+    ]
+  },
   "readOnly": {
     "label": "Read only",
     "type": "optional-string",
