@@ -1,5 +1,12 @@
 <div class="progress">
-    <div{{{progressClasses}}} role="progressbar" aria-valuenow="{{{percent}}}" style="width: {{{percent}}}%;">
-        {{{percent}}}%
-    </div>
+  <div{{{progressClasses}}} role="progressbar" aria-valuenow="{{{percent}}}" style="width: {{{percent}}}%;">
+    <span class="sr-only">{{{percent}}}% Complete</span>
+  </div>
+</div>
+
+<!-- Example with label -->
+<div class="progress">
+  <div{{{progressClasses}}} role="progressbar" aria-valuenow="{{{percent}}}" style="width: {{{percent}}}%;">
+    {{{percent}}}%
+  </div>
 </div>
