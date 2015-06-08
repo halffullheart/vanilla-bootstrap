@@ -1,0 +1,42 @@
+{
+  "formGroupClasses": {
+    "type": "css-class",
+    "staticClasses": ["form-group"],
+    "optionalClasses": [
+      {
+        "label": "Validation",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Success",
+            "value": "has-success"
+          },
+          {
+            "label": "Warning",
+            "value": "has-warning"
+          },
+          {
+            "label": "Error",
+            "value": "has-error"
+          }
+        ]
+      }
+    ]
+  },
+  "radioClasses": {
+    "type": "css-class",
+    "staticClasses": ["checkbox"],
+    "optionalClasses": [
+      {
+        "label": "Disabled (label)",
+        "type": "optional-string",
+        "value": "disabled"
+      }
+    ]
+  },
+  "disabled": {
+    "label": "Disabled (input)",
+    "type": "optional-string",
+    "value": "disabled"
+  }
+}
