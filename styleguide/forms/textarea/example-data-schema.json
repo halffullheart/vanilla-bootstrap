@@ -1,0 +1,60 @@
+{
+  "formGroupClasses": {
+    "type": "css-class",
+    "staticClasses": ["form-group"],
+    "optionalClasses": [
+      {
+        "label": "Validation",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Success",
+            "value": "has-success"
+          },
+          {
+            "label": "Warning",
+            "value": "has-warning"
+          },
+          {
+            "label": "Error",
+            "value": "has-error"
+          }
+        ]
+      }
+    ]
+  },
+  "textareaClasses": {
+    "type": "css-class",
+    "staticClasses": ["form-control"],
+    "optionalClasses": [
+      {
+        "label": "Disabled",
+        "type": "optional-string",
+        "value": "disabled"
+      },
+      {
+        "label": "Size",
+        "type": "enum",
+        "options": [
+          {
+            "label": "Large",
+            "value": "input-lg"
+          },
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Small",
+            "value": "input-sm"
+          }
+        ]
+      }
+    ]
+  },
+  "readOnly": {
+    "label": "Read only",
+    "type": "optional-string",
+    "value": "readonly"
+  }
+}
