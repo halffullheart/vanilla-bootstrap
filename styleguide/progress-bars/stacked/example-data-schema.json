@@ -4,7 +4,7 @@
     "staticClasses": ["progress-bar"],
     "optionalClasses": [
       {
-        "label": "Context",
+        "label": "Bar 1 Context",
         "type" : "enum",
         "options": [
           {"label" : "None", "value" : ""},
@@ -15,12 +15,12 @@
         ]
       },
       {
-        "label" : "Striped",
+        "label" : "Bar 1 Striped",
         "type" : "optional-string",
         "value" : "progress-bar-striped"
       },
       {
-        "label" : "Animated",
+        "label" : "Bar 1 Animated",
         "type" : "optional-string",
         "value" : "active"
       }
@@ -31,7 +31,7 @@
     "staticClasses": ["progress-bar"],
     "optionalClasses": [
       {
-        "label": "Context",
+        "label": "Bar 2 Context",
         "type" : "enum",
         "options": [
           {"label" : "None", "value" : ""},
@@ -42,26 +42,26 @@
         ]
       },
       {
-        "label" : "Striped",
+        "label" : "Bar 2 Striped",
         "type" : "optional-string",
         "value" : "progress-bar-striped"
       },
       {
-        "label" : "Animated",
+        "label" : "Bar 2 Animated",
         "type" : "optional-string",
         "value" : "active"
       }
     ]
   },
   "bar1Percent": {
-    "label": "%",
+    "label": "Bar 1 %",
     "type" : "number",
     "min" : 0,
     "max" : 100,
     "step" : 1
   },
   "bar2Percent": {
-    "label": "%",
+    "label": "Bar 1 %",
     "type" : "number",
     "min" : 0,
     "max" : 100,
