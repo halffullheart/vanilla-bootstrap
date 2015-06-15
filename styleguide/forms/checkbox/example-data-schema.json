@@ -23,7 +23,7 @@
       }
     ]
   },
-  "radioClasses": {
+  "checkboxClasses": {
     "type": "css-class",
     "staticClasses": ["checkbox"],
     "optionalClasses": [
