@@ -79,6 +79,6 @@
   "readOnly": {
     "label": "Read only",
     "type": "optional-string",
-    "value": "readonly"
+    "value": " readonly"
   }
 }
