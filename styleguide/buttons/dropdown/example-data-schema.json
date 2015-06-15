@@ -1,7 +1,6 @@
 {
   "buttonGroupClasses": {
     "type": "css-class",
-    "staticClasses": ["btn-group"],
     "optionalClasses": [
       {
         "label": "Open direction",
@@ -9,7 +8,7 @@
         "options": [
           {
             "label": "Down",
-            "value": ""
+            "value": "dropdown"
           },
           {
             "label": "Up",
