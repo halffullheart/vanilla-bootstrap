@@ -8,6 +8,10 @@
         "type": "enum",
         "options": [
           {
+            "label": "None",
+            "value": ""
+          },
+          {
             "label": "Success",
             "value": "has-success"
           },
