@@ -32,11 +32,6 @@
     "staticClasses": ["form-control"],
     "optionalClasses": [
       {
-        "label": "Disabled",
-        "type": "optional-string",
-        "value": "disabled"
-      },
-      {
         "label": "Size",
         "type": "enum",
         "options": [
@@ -59,6 +54,11 @@
   "multiple": {
     "label": "Select multiple options",
     "type": "optional-string",
-    "value": "multiple"
+    "value": "multiple "
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": "disabled "
   }
 }
