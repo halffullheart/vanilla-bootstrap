@@ -1,6 +1,6 @@
 ## Buttons
 
-[Boostrap documentation for buttons][docs]
+[Boostrap documentation for buttons][bootstrap docs]
 
 
-[docs]: http://getbootstrap.com/css/#buttons
+[bootstrap docs]: http://getbootstrap.com/css/#buttons

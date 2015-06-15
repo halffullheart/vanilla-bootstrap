@@ -1,7 +1,7 @@
 Tables
 ------
 
-[Bootstrap documentation for tables][docs]
+[Bootstrap documentation for tables][bootstrap docs]
 
 
-[docs]: http://getbootstrap.com/css/#tables
+[bootstrap docs]: http://getbootstrap.com/css/#tables
