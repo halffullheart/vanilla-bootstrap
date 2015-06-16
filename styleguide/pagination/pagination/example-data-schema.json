@@ -22,5 +22,13 @@
         ]
       }
     ]
+  },
+  "disabledItemsMarkup": {
+    "label": "Markup for disabled items",
+    "type": "section-toggle",
+    "value": [
+      "anchors",
+      "spans"
+    ]
   }
 }
