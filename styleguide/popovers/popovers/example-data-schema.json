@@ -20,5 +20,13 @@
         "value": "right"
       }
     ]
+  },
+  "dismissible": {
+    "label": "Dismissible",
+    "type": "section-toggle",
+    "values": [
+      "default",
+      "dismissible"
+    ]
   }
 }
