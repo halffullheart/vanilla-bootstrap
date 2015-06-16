@@ -18,10 +18,6 @@
           {
             "label": "Small",
             "value": "input-group-sm"
-          },
-          {
-            "label": "Extra small",
-            "value": "input-group-xm"
           }
         ]
       }
