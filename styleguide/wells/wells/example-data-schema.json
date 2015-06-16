@@ -8,16 +8,16 @@
         "type": "enum",
         "options": [
           {
-            "label": "Small",
-            "value": "well-sm"
+            "label": "Large",
+            "value": "well-lg"
           },
           {
             "label": "Default",
             "value": ""
           },
           {
-            "label": "Large",
-            "value": "well-lg"
+            "label": "Small",
+            "value": "well-sm"
           }
         ]
       }
