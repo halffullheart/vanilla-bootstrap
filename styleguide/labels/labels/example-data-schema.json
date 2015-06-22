@@ -26,6 +26,10 @@
       {
         "label": "Heading 6",
         "value": "h6"
+      },
+      {
+        "label": "Paragraph",
+        "value": "p"
       }
     ]
   },
