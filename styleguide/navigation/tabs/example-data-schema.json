@@ -28,5 +28,19 @@
         "value": "nav-justified"
       }
     ]
+  },
+  "sections": {
+    "label": "Layout",
+    "type": "section-toggle",
+    "values": [
+      {
+        "label": "Basic",
+        "value": "default"
+      },
+      {
+        "label": "With dropdown",
+        "value": "dropdown"
+      }
+    ]
   }
 }
