@@ -1,1 +1,6 @@
-$('exampleCarousel').carousel();
+$('exampleCarousel').carousel({
+  interval: {{interval}},
+  pause: '{{pause}}',
+  wrap: {{wrap}},
+  keyboard: {{keyboard}}
+});

@@ -1,0 +1,26 @@
+{
+  "interval": {
+    "label": "Time between slides (ms)",
+    "type": "number",
+    "min": 1000,
+    "max": 15000,
+    "step": 1000
+  },
+  "pause": {
+    "label": "Pause while hovering",
+    "type": "optional-string",
+    "value": "hover"
+  },
+  "wrap": {
+    "label": "Cycle continuously",
+    "type": "optional-string",
+    "value": "true",
+    "default": "show"
+  },
+  "keyboard": {
+    "label": "Respond to keyboard events",
+    "type": "optional-string",
+    "value": "true",
+    "default": "show"
+  }
+}
