@@ -66,5 +66,19 @@
     "min" : 0,
     "max" : 100,
     "step" : 1
+  },
+  "sections": {
+    "label": "Method of labeling",
+    "type": "section-toggle",
+    "values": [
+      {
+        "label": "Only for screen readers",
+        "value": "default"
+      },
+      {
+        "label": "Visually",
+        "value": "label"
+      }
+    ]
   }
 }
