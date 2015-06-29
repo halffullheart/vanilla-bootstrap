@@ -55,5 +55,19 @@
         ]
       }
     ]
+  },
+  "sections": {
+    "label": "Display",
+    "type": "section-toggle",
+    "values": [
+      {
+        "label": "Basic",
+        "value": "default"
+      },
+      {
+        "label": "Responsive",
+        "value": "responsive"
+      }
+    ]
   }
 }
