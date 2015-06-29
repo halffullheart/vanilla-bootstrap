@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "label": "Content",
+    "type": "section-toggle",
+    "values": [
+      {
+        "label": "Basic",
+        "value": "default"
+      },
+      {
+        "label": "Custom",
+        "value": "content"
+      }
+    ]
+  }
+}
