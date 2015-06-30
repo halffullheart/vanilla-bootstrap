@@ -1,7 +1,7 @@
 {
   "heading": {
     "label": "Heading level",
-    "type": "enum",
+    "type": "select",
     "values": [
       {
         "label": "Heading 1",
@@ -34,39 +34,46 @@
     ]
   },
   "labelClasses": {
-    "type": "css-class",
-    "staticClasses": ["label"],
-    "optionalClasses": [
-      {
-        "label": "Label style",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Default",
-            "value": "label-default"
-          },
-          {
-            "label": "Primary",
-            "value": "label-primary"
-          },
-          {
-            "label": "Success",
-            "value": "label-success"
-          },
-          {
-            "label": "Info",
-            "value": "label-info"
-          },
-          {
-            "label": "Warning",
-            "value": "label-warning"
-          },
-          {
-            "label": "Danger",
-            "value": "label-danger"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "label"
+        },
+        {
+          "label": "Label style",
+          "type": "select",
+          "values": [
+            {
+              "label": "Default",
+              "value": "label-default"
+            },
+            {
+              "label": "Primary",
+              "value": "label-primary"
+            },
+            {
+              "label": "Success",
+              "value": "label-success"
+            },
+            {
+              "label": "Info",
+              "value": "label-info"
+            },
+            {
+              "label": "Warning",
+              "value": "label-warning"
+            },
+            {
+              "label": "Danger",
+              "value": "label-danger"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
