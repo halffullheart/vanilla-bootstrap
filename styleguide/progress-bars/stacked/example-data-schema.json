@@ -6,7 +6,7 @@
       {
         "label": "Bar 1 Context",
         "type" : "enum",
-        "options": [
+        "values": [
           {"label" : "None", "value" : ""},
           {"label" : "Success", "value" : "progress-bar-success"},
           {"label" : "Info", "value" : "progress-bar-info"},
@@ -33,7 +33,7 @@
       {
         "label": "Bar 2 Context",
         "type" : "enum",
-        "options": [
+        "values": [
           {"label" : "None", "value" : ""},
           {"label" : "Success", "value" : "progress-bar-success"},
           {"label" : "Info", "value" : "progress-bar-info"},

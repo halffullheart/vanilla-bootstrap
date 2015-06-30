@@ -31,7 +31,7 @@
       {
         "label": "Context",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Active",
             "value": "active"

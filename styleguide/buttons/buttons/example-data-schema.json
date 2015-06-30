@@ -28,7 +28,7 @@
       {
         "label": "Button style",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Default",
             "value": "btn-default"
@@ -62,7 +62,7 @@
       {
         "label": "Button size",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Large",
             "value": "btn-lg"

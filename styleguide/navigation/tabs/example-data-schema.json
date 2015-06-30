@@ -6,7 +6,7 @@
       {
         "label": "Tab style",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Tabs",
             "value": "nav-tabs"

@@ -5,7 +5,7 @@
       {
         "label": "Horizontal alignment of media",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Left",
             "value": "media-left"
@@ -19,7 +19,7 @@
       {
         "label": "Vertical alignment of media",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Top",
             "value": ""

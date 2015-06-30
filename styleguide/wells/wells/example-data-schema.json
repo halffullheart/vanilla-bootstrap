@@ -6,7 +6,7 @@
       {
         "label": "Well size",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Large",
             "value": "well-lg"

@@ -6,7 +6,7 @@
       {
         "label": "Validation",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "None",
             "value": ""

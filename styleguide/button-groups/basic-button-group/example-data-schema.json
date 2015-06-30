@@ -5,7 +5,7 @@
       {
         "label": "Orientation",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Horizontal",
             "value": "btn-group"
@@ -19,7 +19,7 @@
       {
         "label": "Button size",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Large",
             "value": "btn-group-lg"

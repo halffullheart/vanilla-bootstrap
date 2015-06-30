@@ -2,7 +2,7 @@
   "heading": {
     "label": "Heading level",
     "type": "enum",
-    "options": [
+    "values": [
       {
         "label": "Heading 1",
         "value": "h1"
@@ -40,7 +40,7 @@
       {
         "label": "Label style",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Default",
             "value": "label-default"

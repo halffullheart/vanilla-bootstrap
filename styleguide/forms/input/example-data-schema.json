@@ -6,7 +6,7 @@
       {
         "label": "Validation",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "None",
             "value": ""
@@ -39,7 +39,7 @@
       {
         "label": "Size",
         "type": "enum",
-        "options": [
+        "values": [
           {
             "label": "Large",
             "value": "input-lg"
@@ -59,7 +59,7 @@
   "inputType": {
     "label": "Type",
     "type": "enum",
-    "options": [
+    "values": [
       "text",
       "password",
       "datetime",
