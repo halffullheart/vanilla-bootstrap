@@ -1,33 +1,39 @@
 {
   "classes": {
-    "type": "css-class",
-    "staticClasses": ["form-control"],
-    "optionalClasses": [
-      {
-        "label": "Size",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Large",
-            "value": "input-lg"
-          },
-          {
-            "label": "Default",
-            "value": ""
-          },
-          {
-            "label": "Small",
-            "value": "input-sm"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "form-control"
+        },
+        {
+          "label": "Size",
+          "type": "select",
+          "optional": true,
+          "default": null,
+          "values": [
+            {
+              "label": "Large",
+              "value": "input-lg"
+            },
+            {
+              "label": "Small",
+              "value": "input-sm"
+            }
+          ]
+        }
+      ]
+    }
   },
   "rows": {
     "label": "Rows",
     "type": "number",
     "min": 1,
     "max": 10,
-    "step": 1
+    "step": 1,
+    "default": 4
   }
 }
