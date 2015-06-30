@@ -1,57 +1,89 @@
 {
   "alertClasses": {
-    "type": "css-class",
-    "staticClasses": ["alert"],
-    "optionalClasses": [
-      {
-        "label": "Alert level",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Success",
-            "value": "alert-success"
-          },
-          {
-            "label": "Info",
-            "value": "alert-info"
-          },
-          {
-            "label": "Warning",
-            "value": "alert-warning"
-          },
-          {
-            "label": "Danger",
-            "value": "alert-danger"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "alert"
+        },
+        {
+          "label": "Alert level",
+          "type": "select",
+          "values": [
+            {
+              "label": "Success",
+              "value": "alert-success"
+            },
+            {
+              "label": "Info",
+              "value": "alert-info"
+            },
+            {
+              "label": "Warning",
+              "value": "alert-warning"
+            },
+            {
+              "label": "Danger",
+              "value": "alert-danger"
+            }
+          ]
+        }
+      ]
+    }
   },
   "dismissAlertClasses": {
-    "type": "css-class",
-    "staticClasses": ["alert", "alert-dismissible"],
-    "optionalClasses": [
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "alert"
+        },
+        {
+          "type": "const",
+          "value": "alert-dismissible"
+        },
+        {
+          "label": "Alert level",
+          "type": "select",
+          "values": [
+            {
+              "label": "Success",
+              "value": "alert-success"
+            },
+            {
+              "label": "Info",
+              "value": "alert-info"
+            },
+            {
+              "label": "Warning",
+              "value": "alert-warning"
+            },
+            {
+              "label": "Danger",
+              "value": "alert-danger"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "sections": {
+    "label": "Layout",
+    "type": "section-switch",
+    "values": [
       {
-        "label": "Alert level",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Success",
-            "value": "alert-success"
-          },
-          {
-            "label": "Info",
-            "value": "alert-info"
-          },
-          {
-            "label": "Warning",
-            "value": "alert-warning"
-          },
-          {
-            "label": "Danger",
-            "value": "alert-danger"
-          }
-        ]
+        "label": "Default",
+        "value": "default"
+      },
+      {
+        "label": "Dismissible",
+        "value": "dismissible"
       }
     ]
   }
