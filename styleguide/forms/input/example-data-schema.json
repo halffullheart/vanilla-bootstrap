@@ -1,64 +1,84 @@
 {
   "formGroupClasses": {
-    "type": "css-class",
-    "staticClasses": ["form-group"],
-    "optionalClasses": [
-      {
-        "label": "Validation",
-        "type": "enum",
-        "values": [
-          {
-            "label": "None",
-            "value": ""
-          },
-          {
-            "label": "Success",
-            "value": "has-success"
-          },
-          {
-            "label": "Warning",
-            "value": "has-warning"
-          },
-          {
-            "label": "Error",
-            "value": "has-error"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "form-group"
+        },
+        {
+          "label": "Validation",
+          "type": "select",
+          "optional": true,
+          "default": null,
+          "values": [
+            {
+              "label": "Success",
+              "value": "has-success"
+            },
+            {
+              "label": "Warning",
+              "value": "has-warning"
+            },
+            {
+              "label": "Error",
+              "value": "has-error"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "inputClasses": {
-    "type": "css-class",
-    "staticClasses": ["form-control"],
-    "optionalClasses": [
+  "inputAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Disabled",
-        "type": "optional-string",
-        "value": "disabled"
+        "type": "attribute",
+        "key": "class",
+        "value": {
+          "type": "group",
+          "values": [
+            {
+              "type": "const",
+              "value": "form-control"
+            },
+            {
+              "label": "Disabled",
+              "type": "switch",
+              "on": "disabled"
+            },
+            {
+              "label": "Size",
+              "type": "select",
+              "optional": true,
+              "default": null,
+              "values": [
+                {
+                  "label": "Large",
+                  "value": "input-lg"
+                },
+                {
+                  "label": "Small",
+                  "value": "input-sm"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
-        "label": "Size",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Large",
-            "value": "input-lg"
-          },
-          {
-            "label": "Default",
-            "value": ""
-          },
-          {
-            "label": "Small",
-            "value": "input-sm"
-          }
-        ]
+        "label": "Read only",
+        "type": "switch",
+        "on": " readonly"
       }
     ]
   },
   "inputType": {
     "label": "Type",
-    "type": "enum",
+    "type": "select",
     "values": [
       "text",
       "password",
@@ -75,10 +95,5 @@
       "tel",
       "color"
     ]
-  },
-  "readOnly": {
-    "label": "Read only",
-    "type": "optional-string",
-    "value": " readonly"
   }
 }
