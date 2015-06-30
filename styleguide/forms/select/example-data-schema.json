@@ -1,64 +1,81 @@
 {
   "formGroupClasses": {
-    "type": "css-class",
-    "staticClasses": ["form-group"],
-    "optionalClasses": [
-      {
-        "label": "Validation",
-        "type": "enum",
-        "values": [
-          {
-            "label": "None",
-            "value": ""
-          },
-          {
-            "label": "Success",
-            "value": "has-success"
-          },
-          {
-            "label": "Warning",
-            "value": "has-warning"
-          },
-          {
-            "label": "Error",
-            "value": "has-error"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "form-group"
+        },
+        {
+          "label": "Validation",
+          "type": "select",
+          "values": [
+            {
+              "label": "None",
+              "value": ""
+            },
+            {
+              "label": "Success",
+              "value": "has-success"
+            },
+            {
+              "label": "Warning",
+              "value": "has-warning"
+            },
+            {
+              "label": "Error",
+              "value": "has-error"
+            }
+          ]
+        }
+      ]
+    }
   },
   "selectClasses": {
-    "type": "css-class",
-    "staticClasses": ["form-control"],
-    "optionalClasses": [
+    "type": "group",
+    "values": [
       {
-        "label": "Size",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Large",
-            "value": "input-lg"
-          },
-          {
-            "label": "Default",
-            "value": ""
-          },
-          {
-            "label": "Small",
-            "value": "input-sm"
-          }
-        ]
+        "type": "attribute",
+        "key": "class",
+        "value": {
+          "type": "group",
+          "values": [
+            {
+              "type": "const",
+              "value": "form-control"
+            },
+            {
+              "label": "Size",
+              "type": "select",
+              "optional": true,
+              "default": null,
+              "values": [
+                {
+                  "label": "Large",
+                  "value": "input-lg"
+                },
+                {
+                  "label": "Small",
+                  "value": "input-sm"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "label": "Select multiple values",
+        "type": "switch",
+        "on": "multiple"
+      },
+      {
+        "label": "Disabled",
+        "type": "switch",
+        "on": "disabled"
       }
     ]
-  },
-  "multiple": {
-    "label": "Select multiple values",
-    "type": "optional-string",
-    "value": "multiple "
-  },
-  "disabled": {
-    "label": "Disabled",
-    "type": "optional-string",
-    "value": "disabled "
   }
 }
