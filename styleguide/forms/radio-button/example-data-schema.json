@@ -1,46 +1,54 @@
 {
   "formGroupClasses": {
-    "type": "css-class",
-    "staticClasses": ["form-group"],
-    "optionalClasses": [
-      {
-        "label": "Validation",
-        "type": "enum",
-        "values": [
-          {
-            "label": "None",
-            "value": ""
-          },
-          {
-            "label": "Success",
-            "value": "has-success"
-          },
-          {
-            "label": "Warning",
-            "value": "has-warning"
-          },
-          {
-            "label": "Error",
-            "value": "has-error"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "label": "Validation",
+          "type": "select",
+          "optional": true,
+          "default": null,
+          "values": [
+            {
+              "label": "Success",
+              "value": "has-success"
+            },
+            {
+              "label": "Warning",
+              "value": "has-warning"
+            },
+            {
+              "label": "Error",
+              "value": "has-error"
+            }
+          ]
+        }
+      ]
+    }
   },
   "radioClasses": {
-    "type": "css-class",
-    "staticClasses": ["radio"],
-    "optionalClasses": [
-      {
-        "label": "Disabled (label)",
-        "type": "optional-string",
-        "value": "disabled"
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "radio"
+        },
+        {
+          "label": "Disabled (label)",
+          "type": "switch",
+          "value": "disabled"
+        }
+      ]
+    }
   },
   "disabled": {
     "label": "Disabled (input)",
-    "type": "optional-string",
+    "type": "switch",
     "value": "disabled"
   }
 }
