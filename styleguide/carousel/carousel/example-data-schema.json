@@ -8,19 +8,21 @@
   },
   "pause": {
     "label": "Pause while hovering",
-    "type": "optional-string",
+    "type": "switch",
     "value": "hover"
   },
   "wrap": {
     "label": "Cycle continuously",
-    "type": "optional-string",
-    "value": "true",
-    "default": "show"
+    "type": "switch",
+    "on": "true",
+    "off": "false",
+    "default": "on"
   },
   "keyboard": {
     "label": "Respond to keyboard events",
-    "type": "optional-string",
-    "value": "true",
-    "default": "show"
+    "type": "switch",
+    "on": "true",
+    "off": "false",
+    "default": "on"
   }
 }
