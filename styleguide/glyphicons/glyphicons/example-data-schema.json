@@ -1,1066 +1,1073 @@
 {
   "iconClasses": {
-    "type": "css-class",
-    "staticClasses": ["glyphicon"],
-    "optionalClasses": [
-      {
-        "label": "Icon name",
-        "type": "enum",
-        "values": [
-          {
-            "label": "asterisk",
-            "value": "glyphicon-asterisk"
-          },
-          {
-            "label": "plus",
-            "value": "glyphicon-plus"
-          },
-          {
-            "label": "euro",
-            "value": "glyphicon-euro"
-          },
-          {
-            "label": "eur",
-            "value": "glyphicon-eur"
-          },
-          {
-            "label": "minus",
-            "value": "glyphicon-minus"
-          },
-          {
-            "label": "cloud",
-            "value": "glyphicon-cloud"
-          },
-          {
-            "label": "envelope",
-            "value": "glyphicon-envelope"
-          },
-          {
-            "label": "pencil",
-            "value": "glyphicon-pencil"
-          },
-          {
-            "label": "glass",
-            "value": "glyphicon-glass"
-          },
-          {
-            "label": "music",
-            "value": "glyphicon-music"
-          },
-          {
-            "label": "search",
-            "value": "glyphicon-search"
-          },
-          {
-            "label": "heart",
-            "value": "glyphicon-heart"
-          },
-          {
-            "label": "star",
-            "value": "glyphicon-star"
-          },
-          {
-            "label": "star-empty",
-            "value": "glyphicon-star-empty"
-          },
-          {
-            "label": "user",
-            "value": "glyphicon-user"
-          },
-          {
-            "label": "film",
-            "value": "glyphicon-film"
-          },
-          {
-            "label": "th-large",
-            "value": "glyphicon-th-large"
-          },
-          {
-            "label": "th",
-            "value": "glyphicon-th"
-          },
-          {
-            "label": "th-list",
-            "value": "glyphicon-th-list"
-          },
-          {
-            "label": "ok",
-            "value": "glyphicon-ok"
-          },
-          {
-            "label": "remove",
-            "value": "glyphicon-remove"
-          },
-          {
-            "label": "zoom-in",
-            "value": "glyphicon-zoom-in"
-          },
-          {
-            "label": "zoom-out",
-            "value": "glyphicon-zoom-out"
-          },
-          {
-            "label": "off",
-            "value": "glyphicon-off"
-          },
-          {
-            "label": "signal",
-            "value": "glyphicon-signal"
-          },
-          {
-            "label": "cog",
-            "value": "glyphicon-cog"
-          },
-          {
-            "label": "trash",
-            "value": "glyphicon-trash"
-          },
-          {
-            "label": "home",
-            "value": "glyphicon-home"
-          },
-          {
-            "label": "file",
-            "value": "glyphicon-file"
-          },
-          {
-            "label": "time",
-            "value": "glyphicon-time"
-          },
-          {
-            "label": "road",
-            "value": "glyphicon-road"
-          },
-          {
-            "label": "download-alt",
-            "value": "glyphicon-download-alt"
-          },
-          {
-            "label": "download",
-            "value": "glyphicon-download"
-          },
-          {
-            "label": "upload",
-            "value": "glyphicon-upload"
-          },
-          {
-            "label": "inbox",
-            "value": "glyphicon-inbox"
-          },
-          {
-            "label": "play-circle",
-            "value": "glyphicon-play-circle"
-          },
-          {
-            "label": "repeat",
-            "value": "glyphicon-repeat"
-          },
-          {
-            "label": "refresh",
-            "value": "glyphicon-refresh"
-          },
-          {
-            "label": "list-alt",
-            "value": "glyphicon-list-alt"
-          },
-          {
-            "label": "lock",
-            "value": "glyphicon-lock"
-          },
-          {
-            "label": "flag",
-            "value": "glyphicon-flag"
-          },
-          {
-            "label": "headphones",
-            "value": "glyphicon-headphones"
-          },
-          {
-            "label": "volume-off",
-            "value": "glyphicon-volume-off"
-          },
-          {
-            "label": "volume-down",
-            "value": "glyphicon-volume-down"
-          },
-          {
-            "label": "volume-up",
-            "value": "glyphicon-volume-up"
-          },
-          {
-            "label": "qrcode",
-            "value": "glyphicon-qrcode"
-          },
-          {
-            "label": "barcode",
-            "value": "glyphicon-barcode"
-          },
-          {
-            "label": "tag",
-            "value": "glyphicon-tag"
-          },
-          {
-            "label": "tags",
-            "value": "glyphicon-tags"
-          },
-          {
-            "label": "book",
-            "value": "glyphicon-book"
-          },
-          {
-            "label": "bookmark",
-            "value": "glyphicon-bookmark"
-          },
-          {
-            "label": "print",
-            "value": "glyphicon-print"
-          },
-          {
-            "label": "camera",
-            "value": "glyphicon-camera"
-          },
-          {
-            "label": "font",
-            "value": "glyphicon-font"
-          },
-          {
-            "label": "bold",
-            "value": "glyphicon-bold"
-          },
-          {
-            "label": "italic",
-            "value": "glyphicon-italic"
-          },
-          {
-            "label": "text-height",
-            "value": "glyphicon-text-height"
-          },
-          {
-            "label": "text-width",
-            "value": "glyphicon-text-width"
-          },
-          {
-            "label": "align-left",
-            "value": "glyphicon-align-left"
-          },
-          {
-            "label": "align-center",
-            "value": "glyphicon-align-center"
-          },
-          {
-            "label": "align-right",
-            "value": "glyphicon-align-right"
-          },
-          {
-            "label": "align-justify",
-            "value": "glyphicon-align-justify"
-          },
-          {
-            "label": "list",
-            "value": "glyphicon-list"
-          },
-          {
-            "label": "indent-left",
-            "value": "glyphicon-indent-left"
-          },
-          {
-            "label": "indent-right",
-            "value": "glyphicon-indent-right"
-          },
-          {
-            "label": "facetime-video",
-            "value": "glyphicon-facetime-video"
-          },
-          {
-            "label": "picture",
-            "value": "glyphicon-picture"
-          },
-          {
-            "label": "map-marker",
-            "value": "glyphicon-map-marker"
-          },
-          {
-            "label": "adjust",
-            "value": "glyphicon-adjust"
-          },
-          {
-            "label": "tint",
-            "value": "glyphicon-tint"
-          },
-          {
-            "label": "edit",
-            "value": "glyphicon-edit"
-          },
-          {
-            "label": "share",
-            "value": "glyphicon-share"
-          },
-          {
-            "label": "check",
-            "value": "glyphicon-check"
-          },
-          {
-            "label": "move",
-            "value": "glyphicon-move"
-          },
-          {
-            "label": "step-backward",
-            "value": "glyphicon-step-backward"
-          },
-          {
-            "label": "fast-backward",
-            "value": "glyphicon-fast-backward"
-          },
-          {
-            "label": "backward",
-            "value": "glyphicon-backward"
-          },
-          {
-            "label": "play",
-            "value": "glyphicon-play"
-          },
-          {
-            "label": "pause",
-            "value": "glyphicon-pause"
-          },
-          {
-            "label": "stop",
-            "value": "glyphicon-stop"
-          },
-          {
-            "label": "forward",
-            "value": "glyphicon-forward"
-          },
-          {
-            "label": "fast-forward",
-            "value": "glyphicon-fast-forward"
-          },
-          {
-            "label": "step-forward",
-            "value": "glyphicon-step-forward"
-          },
-          {
-            "label": "eject",
-            "value": "glyphicon-eject"
-          },
-          {
-            "label": "chevron-left",
-            "value": "glyphicon-chevron-left"
-          },
-          {
-            "label": "chevron-right",
-            "value": "glyphicon-chevron-right"
-          },
-          {
-            "label": "plus-sign",
-            "value": "glyphicon-plus-sign"
-          },
-          {
-            "label": "minus-sign",
-            "value": "glyphicon-minus-sign"
-          },
-          {
-            "label": "remove-sign",
-            "value": "glyphicon-remove-sign"
-          },
-          {
-            "label": "ok-sign",
-            "value": "glyphicon-ok-sign"
-          },
-          {
-            "label": "question-sign",
-            "value": "glyphicon-question-sign"
-          },
-          {
-            "label": "info-sign",
-            "value": "glyphicon-info-sign"
-          },
-          {
-            "label": "screenshot",
-            "value": "glyphicon-screenshot"
-          },
-          {
-            "label": "remove-circle",
-            "value": "glyphicon-remove-circle"
-          },
-          {
-            "label": "ok-circle",
-            "value": "glyphicon-ok-circle"
-          },
-          {
-            "label": "ban-circle",
-            "value": "glyphicon-ban-circle"
-          },
-          {
-            "label": "arrow-left",
-            "value": "glyphicon-arrow-left"
-          },
-          {
-            "label": "arrow-right",
-            "value": "glyphicon-arrow-right"
-          },
-          {
-            "label": "arrow-up",
-            "value": "glyphicon-arrow-up"
-          },
-          {
-            "label": "arrow-down",
-            "value": "glyphicon-arrow-down"
-          },
-          {
-            "label": "share-alt",
-            "value": "glyphicon-share-alt"
-          },
-          {
-            "label": "resize-full",
-            "value": "glyphicon-resize-full"
-          },
-          {
-            "label": "resize-small",
-            "value": "glyphicon-resize-small"
-          },
-          {
-            "label": "exclamation-sign",
-            "value": "glyphicon-exclamation-sign"
-          },
-          {
-            "label": "gift",
-            "value": "glyphicon-gift"
-          },
-          {
-            "label": "leaf",
-            "value": "glyphicon-leaf"
-          },
-          {
-            "label": "fire",
-            "value": "glyphicon-fire"
-          },
-          {
-            "label": "eye-open",
-            "value": "glyphicon-eye-open"
-          },
-          {
-            "label": "eye-close",
-            "value": "glyphicon-eye-close"
-          },
-          {
-            "label": "warning-sign",
-            "value": "glyphicon-warning-sign"
-          },
-          {
-            "label": "plane",
-            "value": "glyphicon-plane"
-          },
-          {
-            "label": "calendar",
-            "value": "glyphicon-calendar"
-          },
-          {
-            "label": "random",
-            "value": "glyphicon-random"
-          },
-          {
-            "label": "comment",
-            "value": "glyphicon-comment"
-          },
-          {
-            "label": "magnet",
-            "value": "glyphicon-magnet"
-          },
-          {
-            "label": "chevron-up",
-            "value": "glyphicon-chevron-up"
-          },
-          {
-            "label": "chevron-down",
-            "value": "glyphicon-chevron-down"
-          },
-          {
-            "label": "retweet",
-            "value": "glyphicon-retweet"
-          },
-          {
-            "label": "shopping-cart",
-            "value": "glyphicon-shopping-cart"
-          },
-          {
-            "label": "folder-close",
-            "value": "glyphicon-folder-close"
-          },
-          {
-            "label": "folder-open",
-            "value": "glyphicon-folder-open"
-          },
-          {
-            "label": "resize-vertical",
-            "value": "glyphicon-resize-vertical"
-          },
-          {
-            "label": "resize-horizontal",
-            "value": "glyphicon-resize-horizontal"
-          },
-          {
-            "label": "hdd",
-            "value": "glyphicon-hdd"
-          },
-          {
-            "label": "bullhorn",
-            "value": "glyphicon-bullhorn"
-          },
-          {
-            "label": "bell",
-            "value": "glyphicon-bell"
-          },
-          {
-            "label": "certificate",
-            "value": "glyphicon-certificate"
-          },
-          {
-            "label": "thumbs-up",
-            "value": "glyphicon-thumbs-up"
-          },
-          {
-            "label": "thumbs-down",
-            "value": "glyphicon-thumbs-down"
-          },
-          {
-            "label": "hand-right",
-            "value": "glyphicon-hand-right"
-          },
-          {
-            "label": "hand-left",
-            "value": "glyphicon-hand-left"
-          },
-          {
-            "label": "hand-up",
-            "value": "glyphicon-hand-up"
-          },
-          {
-            "label": "hand-down",
-            "value": "glyphicon-hand-down"
-          },
-          {
-            "label": "circle-arrow-right",
-            "value": "glyphicon-circle-arrow-right"
-          },
-          {
-            "label": "circle-arrow-left",
-            "value": "glyphicon-circle-arrow-left"
-          },
-          {
-            "label": "circle-arrow-up",
-            "value": "glyphicon-circle-arrow-up"
-          },
-          {
-            "label": "circle-arrow-down",
-            "value": "glyphicon-circle-arrow-down"
-          },
-          {
-            "label": "globe",
-            "value": "glyphicon-globe"
-          },
-          {
-            "label": "wrench",
-            "value": "glyphicon-wrench"
-          },
-          {
-            "label": "tasks",
-            "value": "glyphicon-tasks"
-          },
-          {
-            "label": "filter",
-            "value": "glyphicon-filter"
-          },
-          {
-            "label": "briefcase",
-            "value": "glyphicon-briefcase"
-          },
-          {
-            "label": "fullscreen",
-            "value": "glyphicon-fullscreen"
-          },
-          {
-            "label": "dashboard",
-            "value": "glyphicon-dashboard"
-          },
-          {
-            "label": "paperclip",
-            "value": "glyphicon-paperclip"
-          },
-          {
-            "label": "heart-empty",
-            "value": "glyphicon-heart-empty"
-          },
-          {
-            "label": "link",
-            "value": "glyphicon-link"
-          },
-          {
-            "label": "phone",
-            "value": "glyphicon-phone"
-          },
-          {
-            "label": "pushpin",
-            "value": "glyphicon-pushpin"
-          },
-          {
-            "label": "usd",
-            "value": "glyphicon-usd"
-          },
-          {
-            "label": "gbp",
-            "value": "glyphicon-gbp"
-          },
-          {
-            "label": "sort",
-            "value": "glyphicon-sort"
-          },
-          {
-            "label": "sort-by-alphabet",
-            "value": "glyphicon-sort-by-alphabet"
-          },
-          {
-            "label": "sort-by-alphabet-alt",
-            "value": "glyphicon-sort-by-alphabet-alt"
-          },
-          {
-            "label": "sort-by-order",
-            "value": "glyphicon-sort-by-order"
-          },
-          {
-            "label": "sort-by-order-alt",
-            "value": "glyphicon-sort-by-order-alt"
-          },
-          {
-            "label": "sort-by-attributes",
-            "value": "glyphicon-sort-by-attributes"
-          },
-          {
-            "label": "sort-by-attributes-alt",
-            "value": "glyphicon-sort-by-attributes-alt"
-          },
-          {
-            "label": "unchecked",
-            "value": "glyphicon-unchecked"
-          },
-          {
-            "label": "expand",
-            "value": "glyphicon-expand"
-          },
-          {
-            "label": "collapse-down",
-            "value": "glyphicon-collapse-down"
-          },
-          {
-            "label": "collapse-up",
-            "value": "glyphicon-collapse-up"
-          },
-          {
-            "label": "log-in",
-            "value": "glyphicon-log-in"
-          },
-          {
-            "label": "flash",
-            "value": "glyphicon-flash"
-          },
-          {
-            "label": "log-out",
-            "value": "glyphicon-log-out"
-          },
-          {
-            "label": "new-window",
-            "value": "glyphicon-new-window"
-          },
-          {
-            "label": "record",
-            "value": "glyphicon-record"
-          },
-          {
-            "label": "save",
-            "value": "glyphicon-save"
-          },
-          {
-            "label": "open",
-            "value": "glyphicon-open"
-          },
-          {
-            "label": "saved",
-            "value": "glyphicon-saved"
-          },
-          {
-            "label": "import",
-            "value": "glyphicon-import"
-          },
-          {
-            "label": "export",
-            "value": "glyphicon-export"
-          },
-          {
-            "label": "send",
-            "value": "glyphicon-send"
-          },
-          {
-            "label": "floppy-disk",
-            "value": "glyphicon-floppy-disk"
-          },
-          {
-            "label": "floppy-saved",
-            "value": "glyphicon-floppy-saved"
-          },
-          {
-            "label": "floppy-remove",
-            "value": "glyphicon-floppy-remove"
-          },
-          {
-            "label": "floppy-save",
-            "value": "glyphicon-floppy-save"
-          },
-          {
-            "label": "floppy-open",
-            "value": "glyphicon-floppy-open"
-          },
-          {
-            "label": "credit-card",
-            "value": "glyphicon-credit-card"
-          },
-          {
-            "label": "transfer",
-            "value": "glyphicon-transfer"
-          },
-          {
-            "label": "cutlery",
-            "value": "glyphicon-cutlery"
-          },
-          {
-            "label": "header",
-            "value": "glyphicon-header"
-          },
-          {
-            "label": "compressed",
-            "value": "glyphicon-compressed"
-          },
-          {
-            "label": "earphone",
-            "value": "glyphicon-earphone"
-          },
-          {
-            "label": "phone-alt",
-            "value": "glyphicon-phone-alt"
-          },
-          {
-            "label": "tower",
-            "value": "glyphicon-tower"
-          },
-          {
-            "label": "stats",
-            "value": "glyphicon-stats"
-          },
-          {
-            "label": "sd-video",
-            "value": "glyphicon-sd-video"
-          },
-          {
-            "label": "hd-video",
-            "value": "glyphicon-hd-video"
-          },
-          {
-            "label": "subtitles",
-            "value": "glyphicon-subtitles"
-          },
-          {
-            "label": "sound-stereo",
-            "value": "glyphicon-sound-stereo"
-          },
-          {
-            "label": "sound-dolby",
-            "value": "glyphicon-sound-dolby"
-          },
-          {
-            "label": "sound-5-1",
-            "value": "glyphicon-sound-5-1"
-          },
-          {
-            "label": "sound-6-1",
-            "value": "glyphicon-sound-6-1"
-          },
-          {
-            "label": "sound-7-1",
-            "value": "glyphicon-sound-7-1"
-          },
-          {
-            "label": "copyright-mark",
-            "value": "glyphicon-copyright-mark"
-          },
-          {
-            "label": "registration-mark",
-            "value": "glyphicon-registration-mark"
-          },
-          {
-            "label": "cloud-download",
-            "value": "glyphicon-cloud-download"
-          },
-          {
-            "label": "cloud-upload",
-            "value": "glyphicon-cloud-upload"
-          },
-          {
-            "label": "tree-conifer",
-            "value": "glyphicon-tree-conifer"
-          },
-          {
-            "label": "tree-deciduous",
-            "value": "glyphicon-tree-deciduous"
-          },
-          {
-            "label": "cd",
-            "value": "glyphicon-cd"
-          },
-          {
-            "label": "save-file",
-            "value": "glyphicon-save-file"
-          },
-          {
-            "label": "open-file",
-            "value": "glyphicon-open-file"
-          },
-          {
-            "label": "level-up",
-            "value": "glyphicon-level-up"
-          },
-          {
-            "label": "copy",
-            "value": "glyphicon-copy"
-          },
-          {
-            "label": "paste",
-            "value": "glyphicon-paste"
-          },
-          {
-            "label": "alert",
-            "value": "glyphicon-alert"
-          },
-          {
-            "label": "equalizer",
-            "value": "glyphicon-equalizer"
-          },
-          {
-            "label": "king",
-            "value": "glyphicon-king"
-          },
-          {
-            "label": "queen",
-            "value": "glyphicon-queen"
-          },
-          {
-            "label": "pawn",
-            "value": "glyphicon-pawn"
-          },
-          {
-            "label": "bishop",
-            "value": "glyphicon-bishop"
-          },
-          {
-            "label": "knight",
-            "value": "glyphicon-knight"
-          },
-          {
-            "label": "baby-formula",
-            "value": "glyphicon-baby-formula"
-          },
-          {
-            "label": "tent",
-            "value": "glyphicon-tent"
-          },
-          {
-            "label": "blackboard",
-            "value": "glyphicon-blackboard"
-          },
-          {
-            "label": "bed",
-            "value": "glyphicon-bed"
-          },
-          {
-            "label": "apple",
-            "value": "glyphicon-apple"
-          },
-          {
-            "label": "erase",
-            "value": "glyphicon-erase"
-          },
-          {
-            "label": "hourglass",
-            "value": "glyphicon-hourglass"
-          },
-          {
-            "label": "lamp",
-            "value": "glyphicon-lamp"
-          },
-          {
-            "label": "duplicate",
-            "value": "glyphicon-duplicate"
-          },
-          {
-            "label": "piggy-bank",
-            "value": "glyphicon-piggy-bank"
-          },
-          {
-            "label": "scissors",
-            "value": "glyphicon-scissors"
-          },
-          {
-            "label": "bitcoin",
-            "value": "glyphicon-bitcoin"
-          },
-          {
-            "label": "btc",
-            "value": "glyphicon-btc"
-          },
-          {
-            "label": "xbt",
-            "value": "glyphicon-xbt"
-          },
-          {
-            "label": "yen",
-            "value": "glyphicon-yen"
-          },
-          {
-            "label": "jpy",
-            "value": "glyphicon-jpy"
-          },
-          {
-            "label": "ruble",
-            "value": "glyphicon-ruble"
-          },
-          {
-            "label": "rub",
-            "value": "glyphicon-rub"
-          },
-          {
-            "label": "scale",
-            "value": "glyphicon-scale"
-          },
-          {
-            "label": "ice-lolly",
-            "value": "glyphicon-ice-lolly"
-          },
-          {
-            "label": "ice-lolly-tasted",
-            "value": "glyphicon-ice-lolly-tasted"
-          },
-          {
-            "label": "education",
-            "value": "glyphicon-education"
-          },
-          {
-            "label": "option-horizontal",
-            "value": "glyphicon-option-horizontal"
-          },
-          {
-            "label": "option-vertical",
-            "value": "glyphicon-option-vertical"
-          },
-          {
-            "label": "menu-hamburger",
-            "value": "glyphicon-menu-hamburger"
-          },
-          {
-            "label": "modal-window",
-            "value": "glyphicon-modal-window"
-          },
-          {
-            "label": "oil",
-            "value": "glyphicon-oil"
-          },
-          {
-            "label": "grain",
-            "value": "glyphicon-grain"
-          },
-          {
-            "label": "sunglasses",
-            "value": "glyphicon-sunglasses"
-          },
-          {
-            "label": "text-size",
-            "value": "glyphicon-text-size"
-          },
-          {
-            "label": "text-color",
-            "value": "glyphicon-text-color"
-          },
-          {
-            "label": "text-background",
-            "value": "glyphicon-text-background"
-          },
-          {
-            "label": "object-align-top",
-            "value": "glyphicon-object-align-top"
-          },
-          {
-            "label": "object-align-bottom",
-            "value": "glyphicon-object-align-bottom"
-          },
-          {
-            "label": "object-align-horizontal",
-            "value": "glyphicon-object-align-horizontal"
-          },
-          {
-            "label": "object-align-left",
-            "value": "glyphicon-object-align-left"
-          },
-          {
-            "label": "object-align-vertical",
-            "value": "glyphicon-object-align-vertical"
-          },
-          {
-            "label": "object-align-right",
-            "value": "glyphicon-object-align-right"
-          },
-          {
-            "label": "triangle-right",
-            "value": "glyphicon-triangle-right"
-          },
-          {
-            "label": "triangle-left",
-            "value": "glyphicon-triangle-left"
-          },
-          {
-            "label": "triangle-bottom",
-            "value": "glyphicon-triangle-bottom"
-          },
-          {
-            "label": "triangle-top",
-            "value": "glyphicon-triangle-top"
-          },
-          {
-            "label": "console",
-            "value": "glyphicon-console"
-          },
-          {
-            "label": "superscript",
-            "value": "glyphicon-superscript"
-          },
-          {
-            "label": "subscript",
-            "value": "glyphicon-subscript"
-          },
-          {
-            "label": "menu-left",
-            "value": "glyphicon-menu-left"
-          },
-          {
-            "label": "menu-right",
-            "value": "glyphicon-menu-right"
-          },
-          {
-            "label": "menu-down",
-            "value": "glyphicon-menu-down"
-          },
-          {
-            "label": "menu-up",
-            "value": "glyphicon-menu-up"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "glyphicon"
+        },
+        {
+          "label": "Icon name",
+          "type": "select",
+          "values": [
+            {
+              "label": "asterisk",
+              "value": "glyphicon-asterisk"
+            },
+            {
+              "label": "plus",
+              "value": "glyphicon-plus"
+            },
+            {
+              "label": "euro",
+              "value": "glyphicon-euro"
+            },
+            {
+              "label": "eur",
+              "value": "glyphicon-eur"
+            },
+            {
+              "label": "minus",
+              "value": "glyphicon-minus"
+            },
+            {
+              "label": "cloud",
+              "value": "glyphicon-cloud"
+            },
+            {
+              "label": "envelope",
+              "value": "glyphicon-envelope"
+            },
+            {
+              "label": "pencil",
+              "value": "glyphicon-pencil"
+            },
+            {
+              "label": "glass",
+              "value": "glyphicon-glass"
+            },
+            {
+              "label": "music",
+              "value": "glyphicon-music"
+            },
+            {
+              "label": "search",
+              "value": "glyphicon-search"
+            },
+            {
+              "label": "heart",
+              "value": "glyphicon-heart"
+            },
+            {
+              "label": "star",
+              "value": "glyphicon-star"
+            },
+            {
+              "label": "star-empty",
+              "value": "glyphicon-star-empty"
+            },
+            {
+              "label": "user",
+              "value": "glyphicon-user"
+            },
+            {
+              "label": "film",
+              "value": "glyphicon-film"
+            },
+            {
+              "label": "th-large",
+              "value": "glyphicon-th-large"
+            },
+            {
+              "label": "th",
+              "value": "glyphicon-th"
+            },
+            {
+              "label": "th-list",
+              "value": "glyphicon-th-list"
+            },
+            {
+              "label": "ok",
+              "value": "glyphicon-ok"
+            },
+            {
+              "label": "remove",
+              "value": "glyphicon-remove"
+            },
+            {
+              "label": "zoom-in",
+              "value": "glyphicon-zoom-in"
+            },
+            {
+              "label": "zoom-out",
+              "value": "glyphicon-zoom-out"
+            },
+            {
+              "label": "off",
+              "value": "glyphicon-off"
+            },
+            {
+              "label": "signal",
+              "value": "glyphicon-signal"
+            },
+            {
+              "label": "cog",
+              "value": "glyphicon-cog"
+            },
+            {
+              "label": "trash",
+              "value": "glyphicon-trash"
+            },
+            {
+              "label": "home",
+              "value": "glyphicon-home"
+            },
+            {
+              "label": "file",
+              "value": "glyphicon-file"
+            },
+            {
+              "label": "time",
+              "value": "glyphicon-time"
+            },
+            {
+              "label": "road",
+              "value": "glyphicon-road"
+            },
+            {
+              "label": "download-alt",
+              "value": "glyphicon-download-alt"
+            },
+            {
+              "label": "download",
+              "value": "glyphicon-download"
+            },
+            {
+              "label": "upload",
+              "value": "glyphicon-upload"
+            },
+            {
+              "label": "inbox",
+              "value": "glyphicon-inbox"
+            },
+            {
+              "label": "play-circle",
+              "value": "glyphicon-play-circle"
+            },
+            {
+              "label": "repeat",
+              "value": "glyphicon-repeat"
+            },
+            {
+              "label": "refresh",
+              "value": "glyphicon-refresh"
+            },
+            {
+              "label": "list-alt",
+              "value": "glyphicon-list-alt"
+            },
+            {
+              "label": "lock",
+              "value": "glyphicon-lock"
+            },
+            {
+              "label": "flag",
+              "value": "glyphicon-flag"
+            },
+            {
+              "label": "headphones",
+              "value": "glyphicon-headphones"
+            },
+            {
+              "label": "volume-off",
+              "value": "glyphicon-volume-off"
+            },
+            {
+              "label": "volume-down",
+              "value": "glyphicon-volume-down"
+            },
+            {
+              "label": "volume-up",
+              "value": "glyphicon-volume-up"
+            },
+            {
+              "label": "qrcode",
+              "value": "glyphicon-qrcode"
+            },
+            {
+              "label": "barcode",
+              "value": "glyphicon-barcode"
+            },
+            {
+              "label": "tag",
+              "value": "glyphicon-tag"
+            },
+            {
+              "label": "tags",
+              "value": "glyphicon-tags"
+            },
+            {
+              "label": "book",
+              "value": "glyphicon-book"
+            },
+            {
+              "label": "bookmark",
+              "value": "glyphicon-bookmark"
+            },
+            {
+              "label": "print",
+              "value": "glyphicon-print"
+            },
+            {
+              "label": "camera",
+              "value": "glyphicon-camera"
+            },
+            {
+              "label": "font",
+              "value": "glyphicon-font"
+            },
+            {
+              "label": "bold",
+              "value": "glyphicon-bold"
+            },
+            {
+              "label": "italic",
+              "value": "glyphicon-italic"
+            },
+            {
+              "label": "text-height",
+              "value": "glyphicon-text-height"
+            },
+            {
+              "label": "text-width",
+              "value": "glyphicon-text-width"
+            },
+            {
+              "label": "align-left",
+              "value": "glyphicon-align-left"
+            },
+            {
+              "label": "align-center",
+              "value": "glyphicon-align-center"
+            },
+            {
+              "label": "align-right",
+              "value": "glyphicon-align-right"
+            },
+            {
+              "label": "align-justify",
+              "value": "glyphicon-align-justify"
+            },
+            {
+              "label": "list",
+              "value": "glyphicon-list"
+            },
+            {
+              "label": "indent-left",
+              "value": "glyphicon-indent-left"
+            },
+            {
+              "label": "indent-right",
+              "value": "glyphicon-indent-right"
+            },
+            {
+              "label": "facetime-video",
+              "value": "glyphicon-facetime-video"
+            },
+            {
+              "label": "picture",
+              "value": "glyphicon-picture"
+            },
+            {
+              "label": "map-marker",
+              "value": "glyphicon-map-marker"
+            },
+            {
+              "label": "adjust",
+              "value": "glyphicon-adjust"
+            },
+            {
+              "label": "tint",
+              "value": "glyphicon-tint"
+            },
+            {
+              "label": "edit",
+              "value": "glyphicon-edit"
+            },
+            {
+              "label": "share",
+              "value": "glyphicon-share"
+            },
+            {
+              "label": "check",
+              "value": "glyphicon-check"
+            },
+            {
+              "label": "move",
+              "value": "glyphicon-move"
+            },
+            {
+              "label": "step-backward",
+              "value": "glyphicon-step-backward"
+            },
+            {
+              "label": "fast-backward",
+              "value": "glyphicon-fast-backward"
+            },
+            {
+              "label": "backward",
+              "value": "glyphicon-backward"
+            },
+            {
+              "label": "play",
+              "value": "glyphicon-play"
+            },
+            {
+              "label": "pause",
+              "value": "glyphicon-pause"
+            },
+            {
+              "label": "stop",
+              "value": "glyphicon-stop"
+            },
+            {
+              "label": "forward",
+              "value": "glyphicon-forward"
+            },
+            {
+              "label": "fast-forward",
+              "value": "glyphicon-fast-forward"
+            },
+            {
+              "label": "step-forward",
+              "value": "glyphicon-step-forward"
+            },
+            {
+              "label": "eject",
+              "value": "glyphicon-eject"
+            },
+            {
+              "label": "chevron-left",
+              "value": "glyphicon-chevron-left"
+            },
+            {
+              "label": "chevron-right",
+              "value": "glyphicon-chevron-right"
+            },
+            {
+              "label": "plus-sign",
+              "value": "glyphicon-plus-sign"
+            },
+            {
+              "label": "minus-sign",
+              "value": "glyphicon-minus-sign"
+            },
+            {
+              "label": "remove-sign",
+              "value": "glyphicon-remove-sign"
+            },
+            {
+              "label": "ok-sign",
+              "value": "glyphicon-ok-sign"
+            },
+            {
+              "label": "question-sign",
+              "value": "glyphicon-question-sign"
+            },
+            {
+              "label": "info-sign",
+              "value": "glyphicon-info-sign"
+            },
+            {
+              "label": "screenshot",
+              "value": "glyphicon-screenshot"
+            },
+            {
+              "label": "remove-circle",
+              "value": "glyphicon-remove-circle"
+            },
+            {
+              "label": "ok-circle",
+              "value": "glyphicon-ok-circle"
+            },
+            {
+              "label": "ban-circle",
+              "value": "glyphicon-ban-circle"
+            },
+            {
+              "label": "arrow-left",
+              "value": "glyphicon-arrow-left"
+            },
+            {
+              "label": "arrow-right",
+              "value": "glyphicon-arrow-right"
+            },
+            {
+              "label": "arrow-up",
+              "value": "glyphicon-arrow-up"
+            },
+            {
+              "label": "arrow-down",
+              "value": "glyphicon-arrow-down"
+            },
+            {
+              "label": "share-alt",
+              "value": "glyphicon-share-alt"
+            },
+            {
+              "label": "resize-full",
+              "value": "glyphicon-resize-full"
+            },
+            {
+              "label": "resize-small",
+              "value": "glyphicon-resize-small"
+            },
+            {
+              "label": "exclamation-sign",
+              "value": "glyphicon-exclamation-sign"
+            },
+            {
+              "label": "gift",
+              "value": "glyphicon-gift"
+            },
+            {
+              "label": "leaf",
+              "value": "glyphicon-leaf"
+            },
+            {
+              "label": "fire",
+              "value": "glyphicon-fire"
+            },
+            {
+              "label": "eye-open",
+              "value": "glyphicon-eye-open"
+            },
+            {
+              "label": "eye-close",
+              "value": "glyphicon-eye-close"
+            },
+            {
+              "label": "warning-sign",
+              "value": "glyphicon-warning-sign"
+            },
+            {
+              "label": "plane",
+              "value": "glyphicon-plane"
+            },
+            {
+              "label": "calendar",
+              "value": "glyphicon-calendar"
+            },
+            {
+              "label": "random",
+              "value": "glyphicon-random"
+            },
+            {
+              "label": "comment",
+              "value": "glyphicon-comment"
+            },
+            {
+              "label": "magnet",
+              "value": "glyphicon-magnet"
+            },
+            {
+              "label": "chevron-up",
+              "value": "glyphicon-chevron-up"
+            },
+            {
+              "label": "chevron-down",
+              "value": "glyphicon-chevron-down"
+            },
+            {
+              "label": "retweet",
+              "value": "glyphicon-retweet"
+            },
+            {
+              "label": "shopping-cart",
+              "value": "glyphicon-shopping-cart"
+            },
+            {
+              "label": "folder-close",
+              "value": "glyphicon-folder-close"
+            },
+            {
+              "label": "folder-open",
+              "value": "glyphicon-folder-open"
+            },
+            {
+              "label": "resize-vertical",
+              "value": "glyphicon-resize-vertical"
+            },
+            {
+              "label": "resize-horizontal",
+              "value": "glyphicon-resize-horizontal"
+            },
+            {
+              "label": "hdd",
+              "value": "glyphicon-hdd"
+            },
+            {
+              "label": "bullhorn",
+              "value": "glyphicon-bullhorn"
+            },
+            {
+              "label": "bell",
+              "value": "glyphicon-bell"
+            },
+            {
+              "label": "certificate",
+              "value": "glyphicon-certificate"
+            },
+            {
+              "label": "thumbs-up",
+              "value": "glyphicon-thumbs-up"
+            },
+            {
+              "label": "thumbs-down",
+              "value": "glyphicon-thumbs-down"
+            },
+            {
+              "label": "hand-right",
+              "value": "glyphicon-hand-right"
+            },
+            {
+              "label": "hand-left",
+              "value": "glyphicon-hand-left"
+            },
+            {
+              "label": "hand-up",
+              "value": "glyphicon-hand-up"
+            },
+            {
+              "label": "hand-down",
+              "value": "glyphicon-hand-down"
+            },
+            {
+              "label": "circle-arrow-right",
+              "value": "glyphicon-circle-arrow-right"
+            },
+            {
+              "label": "circle-arrow-left",
+              "value": "glyphicon-circle-arrow-left"
+            },
+            {
+              "label": "circle-arrow-up",
+              "value": "glyphicon-circle-arrow-up"
+            },
+            {
+              "label": "circle-arrow-down",
+              "value": "glyphicon-circle-arrow-down"
+            },
+            {
+              "label": "globe",
+              "value": "glyphicon-globe"
+            },
+            {
+              "label": "wrench",
+              "value": "glyphicon-wrench"
+            },
+            {
+              "label": "tasks",
+              "value": "glyphicon-tasks"
+            },
+            {
+              "label": "filter",
+              "value": "glyphicon-filter"
+            },
+            {
+              "label": "briefcase",
+              "value": "glyphicon-briefcase"
+            },
+            {
+              "label": "fullscreen",
+              "value": "glyphicon-fullscreen"
+            },
+            {
+              "label": "dashboard",
+              "value": "glyphicon-dashboard"
+            },
+            {
+              "label": "paperclip",
+              "value": "glyphicon-paperclip"
+            },
+            {
+              "label": "heart-empty",
+              "value": "glyphicon-heart-empty"
+            },
+            {
+              "label": "link",
+              "value": "glyphicon-link"
+            },
+            {
+              "label": "phone",
+              "value": "glyphicon-phone"
+            },
+            {
+              "label": "pushpin",
+              "value": "glyphicon-pushpin"
+            },
+            {
+              "label": "usd",
+              "value": "glyphicon-usd"
+            },
+            {
+              "label": "gbp",
+              "value": "glyphicon-gbp"
+            },
+            {
+              "label": "sort",
+              "value": "glyphicon-sort"
+            },
+            {
+              "label": "sort-by-alphabet",
+              "value": "glyphicon-sort-by-alphabet"
+            },
+            {
+              "label": "sort-by-alphabet-alt",
+              "value": "glyphicon-sort-by-alphabet-alt"
+            },
+            {
+              "label": "sort-by-order",
+              "value": "glyphicon-sort-by-order"
+            },
+            {
+              "label": "sort-by-order-alt",
+              "value": "glyphicon-sort-by-order-alt"
+            },
+            {
+              "label": "sort-by-attributes",
+              "value": "glyphicon-sort-by-attributes"
+            },
+            {
+              "label": "sort-by-attributes-alt",
+              "value": "glyphicon-sort-by-attributes-alt"
+            },
+            {
+              "label": "unchecked",
+              "value": "glyphicon-unchecked"
+            },
+            {
+              "label": "expand",
+              "value": "glyphicon-expand"
+            },
+            {
+              "label": "collapse-down",
+              "value": "glyphicon-collapse-down"
+            },
+            {
+              "label": "collapse-up",
+              "value": "glyphicon-collapse-up"
+            },
+            {
+              "label": "log-in",
+              "value": "glyphicon-log-in"
+            },
+            {
+              "label": "flash",
+              "value": "glyphicon-flash"
+            },
+            {
+              "label": "log-out",
+              "value": "glyphicon-log-out"
+            },
+            {
+              "label": "new-window",
+              "value": "glyphicon-new-window"
+            },
+            {
+              "label": "record",
+              "value": "glyphicon-record"
+            },
+            {
+              "label": "save",
+              "value": "glyphicon-save"
+            },
+            {
+              "label": "open",
+              "value": "glyphicon-open"
+            },
+            {
+              "label": "saved",
+              "value": "glyphicon-saved"
+            },
+            {
+              "label": "import",
+              "value": "glyphicon-import"
+            },
+            {
+              "label": "export",
+              "value": "glyphicon-export"
+            },
+            {
+              "label": "send",
+              "value": "glyphicon-send"
+            },
+            {
+              "label": "floppy-disk",
+              "value": "glyphicon-floppy-disk"
+            },
+            {
+              "label": "floppy-saved",
+              "value": "glyphicon-floppy-saved"
+            },
+            {
+              "label": "floppy-remove",
+              "value": "glyphicon-floppy-remove"
+            },
+            {
+              "label": "floppy-save",
+              "value": "glyphicon-floppy-save"
+            },
+            {
+              "label": "floppy-open",
+              "value": "glyphicon-floppy-open"
+            },
+            {
+              "label": "credit-card",
+              "value": "glyphicon-credit-card"
+            },
+            {
+              "label": "transfer",
+              "value": "glyphicon-transfer"
+            },
+            {
+              "label": "cutlery",
+              "value": "glyphicon-cutlery"
+            },
+            {
+              "label": "header",
+              "value": "glyphicon-header"
+            },
+            {
+              "label": "compressed",
+              "value": "glyphicon-compressed"
+            },
+            {
+              "label": "earphone",
+              "value": "glyphicon-earphone"
+            },
+            {
+              "label": "phone-alt",
+              "value": "glyphicon-phone-alt"
+            },
+            {
+              "label": "tower",
+              "value": "glyphicon-tower"
+            },
+            {
+              "label": "stats",
+              "value": "glyphicon-stats"
+            },
+            {
+              "label": "sd-video",
+              "value": "glyphicon-sd-video"
+            },
+            {
+              "label": "hd-video",
+              "value": "glyphicon-hd-video"
+            },
+            {
+              "label": "subtitles",
+              "value": "glyphicon-subtitles"
+            },
+            {
+              "label": "sound-stereo",
+              "value": "glyphicon-sound-stereo"
+            },
+            {
+              "label": "sound-dolby",
+              "value": "glyphicon-sound-dolby"
+            },
+            {
+              "label": "sound-5-1",
+              "value": "glyphicon-sound-5-1"
+            },
+            {
+              "label": "sound-6-1",
+              "value": "glyphicon-sound-6-1"
+            },
+            {
+              "label": "sound-7-1",
+              "value": "glyphicon-sound-7-1"
+            },
+            {
+              "label": "copyright-mark",
+              "value": "glyphicon-copyright-mark"
+            },
+            {
+              "label": "registration-mark",
+              "value": "glyphicon-registration-mark"
+            },
+            {
+              "label": "cloud-download",
+              "value": "glyphicon-cloud-download"
+            },
+            {
+              "label": "cloud-upload",
+              "value": "glyphicon-cloud-upload"
+            },
+            {
+              "label": "tree-conifer",
+              "value": "glyphicon-tree-conifer"
+            },
+            {
+              "label": "tree-deciduous",
+              "value": "glyphicon-tree-deciduous"
+            },
+            {
+              "label": "cd",
+              "value": "glyphicon-cd"
+            },
+            {
+              "label": "save-file",
+              "value": "glyphicon-save-file"
+            },
+            {
+              "label": "open-file",
+              "value": "glyphicon-open-file"
+            },
+            {
+              "label": "level-up",
+              "value": "glyphicon-level-up"
+            },
+            {
+              "label": "copy",
+              "value": "glyphicon-copy"
+            },
+            {
+              "label": "paste",
+              "value": "glyphicon-paste"
+            },
+            {
+              "label": "alert",
+              "value": "glyphicon-alert"
+            },
+            {
+              "label": "equalizer",
+              "value": "glyphicon-equalizer"
+            },
+            {
+              "label": "king",
+              "value": "glyphicon-king"
+            },
+            {
+              "label": "queen",
+              "value": "glyphicon-queen"
+            },
+            {
+              "label": "pawn",
+              "value": "glyphicon-pawn"
+            },
+            {
+              "label": "bishop",
+              "value": "glyphicon-bishop"
+            },
+            {
+              "label": "knight",
+              "value": "glyphicon-knight"
+            },
+            {
+              "label": "baby-formula",
+              "value": "glyphicon-baby-formula"
+            },
+            {
+              "label": "tent",
+              "value": "glyphicon-tent"
+            },
+            {
+              "label": "blackboard",
+              "value": "glyphicon-blackboard"
+            },
+            {
+              "label": "bed",
+              "value": "glyphicon-bed"
+            },
+            {
+              "label": "apple",
+              "value": "glyphicon-apple"
+            },
+            {
+              "label": "erase",
+              "value": "glyphicon-erase"
+            },
+            {
+              "label": "hourglass",
+              "value": "glyphicon-hourglass"
+            },
+            {
+              "label": "lamp",
+              "value": "glyphicon-lamp"
+            },
+            {
+              "label": "duplicate",
+              "value": "glyphicon-duplicate"
+            },
+            {
+              "label": "piggy-bank",
+              "value": "glyphicon-piggy-bank"
+            },
+            {
+              "label": "scissors",
+              "value": "glyphicon-scissors"
+            },
+            {
+              "label": "bitcoin",
+              "value": "glyphicon-bitcoin"
+            },
+            {
+              "label": "btc",
+              "value": "glyphicon-btc"
+            },
+            {
+              "label": "xbt",
+              "value": "glyphicon-xbt"
+            },
+            {
+              "label": "yen",
+              "value": "glyphicon-yen"
+            },
+            {
+              "label": "jpy",
+              "value": "glyphicon-jpy"
+            },
+            {
+              "label": "ruble",
+              "value": "glyphicon-ruble"
+            },
+            {
+              "label": "rub",
+              "value": "glyphicon-rub"
+            },
+            {
+              "label": "scale",
+              "value": "glyphicon-scale"
+            },
+            {
+              "label": "ice-lolly",
+              "value": "glyphicon-ice-lolly"
+            },
+            {
+              "label": "ice-lolly-tasted",
+              "value": "glyphicon-ice-lolly-tasted"
+            },
+            {
+              "label": "education",
+              "value": "glyphicon-education"
+            },
+            {
+              "label": "option-horizontal",
+              "value": "glyphicon-option-horizontal"
+            },
+            {
+              "label": "option-vertical",
+              "value": "glyphicon-option-vertical"
+            },
+            {
+              "label": "menu-hamburger",
+              "value": "glyphicon-menu-hamburger"
+            },
+            {
+              "label": "modal-window",
+              "value": "glyphicon-modal-window"
+            },
+            {
+              "label": "oil",
+              "value": "glyphicon-oil"
+            },
+            {
+              "label": "grain",
+              "value": "glyphicon-grain"
+            },
+            {
+              "label": "sunglasses",
+              "value": "glyphicon-sunglasses"
+            },
+            {
+              "label": "text-size",
+              "value": "glyphicon-text-size"
+            },
+            {
+              "label": "text-color",
+              "value": "glyphicon-text-color"
+            },
+            {
+              "label": "text-background",
+              "value": "glyphicon-text-background"
+            },
+            {
+              "label": "object-align-top",
+              "value": "glyphicon-object-align-top"
+            },
+            {
+              "label": "object-align-bottom",
+              "value": "glyphicon-object-align-bottom"
+            },
+            {
+              "label": "object-align-horizontal",
+              "value": "glyphicon-object-align-horizontal"
+            },
+            {
+              "label": "object-align-left",
+              "value": "glyphicon-object-align-left"
+            },
+            {
+              "label": "object-align-vertical",
+              "value": "glyphicon-object-align-vertical"
+            },
+            {
+              "label": "object-align-right",
+              "value": "glyphicon-object-align-right"
+            },
+            {
+              "label": "triangle-right",
+              "value": "glyphicon-triangle-right"
+            },
+            {
+              "label": "triangle-left",
+              "value": "glyphicon-triangle-left"
+            },
+            {
+              "label": "triangle-bottom",
+              "value": "glyphicon-triangle-bottom"
+            },
+            {
+              "label": "triangle-top",
+              "value": "glyphicon-triangle-top"
+            },
+            {
+              "label": "console",
+              "value": "glyphicon-console"
+            },
+            {
+              "label": "superscript",
+              "value": "glyphicon-superscript"
+            },
+            {
+              "label": "subscript",
+              "value": "glyphicon-subscript"
+            },
+            {
+              "label": "menu-left",
+              "value": "glyphicon-menu-left"
+            },
+            {
+              "label": "menu-right",
+              "value": "glyphicon-menu-right"
+            },
+            {
+              "label": "menu-down",
+              "value": "glyphicon-menu-down"
+            },
+            {
+              "label": "menu-up",
+              "value": "glyphicon-menu-up"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
