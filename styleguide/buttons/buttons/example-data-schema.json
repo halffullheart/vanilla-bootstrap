@@ -21,7 +21,7 @@
       }
     ]
   },
-  "buttonAttrs": {
+  "buttonClasses": {
     "type": "attribute",
     "key": "class",
     "value": {
@@ -68,14 +68,12 @@
         {
           "label": "Button size",
           "type": "select",
+          "optional": true,
+          "default": null,
           "values": [
             {
               "label": "Large",
               "value": "btn-lg"
-            },
-            {
-              "label": "Default",
-              "value": ""
             },
             {
               "label": "Small",
