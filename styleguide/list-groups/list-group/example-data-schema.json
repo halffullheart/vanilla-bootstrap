@@ -1,30 +1,37 @@
 {
   "itemWithContextClasses": {
-    "type": "css-class",
-    "staticClasses": ["list-group-item"],
-    "optionalClasses": [
-      {
-        "label": "Contextual item style",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Success",
-            "value": "list-group-item-success"
-          },
-          {
-            "label": "Info",
-            "value": "list-group-item-info"
-          },
-          {
-            "label": "Warning",
-            "value": "list-group-item-warning"
-          },
-          {
-            "label": "Danger",
-            "value": "list-group-item-danger"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "list-group-item"
+        },
+        {
+          "label": "Contextual item style",
+          "type": "select",
+          "values": [
+            {
+              "label": "Success",
+              "value": "list-group-item-success"
+            },
+            {
+              "label": "Info",
+              "value": "list-group-item-info"
+            },
+            {
+              "label": "Warning",
+              "value": "list-group-item-warning"
+            },
+            {
+              "label": "Danger",
+              "value": "list-group-item-danger"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
