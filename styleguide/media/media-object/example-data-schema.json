@@ -1,39 +1,43 @@
 {
   "mediaObjectClasses": {
-    "type": "css-class",
-    "optionalClasses": [
-      {
-        "label": "Horizontal alignment of media",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Left",
-            "value": "media-left"
-          },
-          {
-            "label": "Right",
-            "value": "media-right"
-          }
-        ]
-      },
-      {
-        "label": "Vertical alignment of media",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Top",
-            "value": ""
-          },
-          {
-            "label": "Middle",
-            "value": "media-middle"
-          },
-          {
-            "label": "Bottom",
-            "value": "media-bottom"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "label": "Horizontal alignment of media",
+          "type": "select",
+          "values": [
+            {
+              "label": "Left",
+              "value": "media-left"
+            },
+            {
+              "label": "Right",
+              "value": "media-right"
+            }
+          ]
+        },
+        {
+          "label": "Vertical alignment of media",
+          "type": "select",
+          "values": [
+            {
+              "label": "Top",
+              "value": ""
+            },
+            {
+              "label": "Middle",
+              "value": "media-middle"
+            },
+            {
+              "label": "Bottom",
+              "value": "media-bottom"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
