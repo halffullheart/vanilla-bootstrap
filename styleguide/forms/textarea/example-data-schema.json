@@ -13,7 +13,6 @@
           "label": "Validation",
           "type": "select",
           "optional": true,
-          "default": null,
           "values": [
             {
               "label": "Success",
@@ -54,7 +53,6 @@
               "label": "Size",
               "type": "select",
               "optional": true,
-              "default": null,
               "values": [
                 {
                   "label": "Large",

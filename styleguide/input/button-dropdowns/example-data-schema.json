@@ -13,7 +13,6 @@
           "label": "Input size",
           "type": "select",
           "optional": true,
-          "default": null,
           "values": [
             {
               "label": "Large",

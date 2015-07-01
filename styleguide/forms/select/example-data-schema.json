@@ -51,7 +51,6 @@
               "label": "Size",
               "type": "select",
               "optional": true,
-              "default": null,
               "values": [
                 {
                   "label": "Large",

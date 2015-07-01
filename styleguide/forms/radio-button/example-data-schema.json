@@ -9,7 +9,6 @@
           "label": "Validation",
           "type": "select",
           "optional": true,
-          "default": null,
           "values": [
             {
               "label": "Success",

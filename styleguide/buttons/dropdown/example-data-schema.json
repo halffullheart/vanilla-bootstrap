@@ -35,7 +35,6 @@
           "label": "Button size",
           "type": "select",
           "optional": true,
-          "default": null,
           "values": [
             {
               "label": "Large",
