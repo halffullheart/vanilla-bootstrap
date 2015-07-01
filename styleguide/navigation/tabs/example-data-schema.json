@@ -1,37 +1,44 @@
 {
   "navClasses": {
-    "type": "css-class",
-    "staticClasses": ["nav"],
-    "optionalClasses": [
-      {
-        "label": "Tab style",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Tabs",
-            "value": "nav-tabs"
-          },
-          {
-            "label": "Pills",
-            "value": "nav-pills"
-          }
-        ]
-      },
-      {
-        "label": "Stacked",
-        "type": "optional-string",
-        "value": "nav-stacked"
-      },
-      {
-        "label": "Justified",
-        "type": "optional-string",
-        "value": "nav-justified"
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "nav"
+        },
+        {
+          "label": "Tab style",
+          "type": "select",
+          "values": [
+            {
+              "label": "Tabs",
+              "value": "nav-tabs"
+            },
+            {
+              "label": "Pills",
+              "value": "nav-pills"
+            }
+          ]
+        },
+        {
+          "label": "Stacked",
+          "type": "switch",
+          "on": "nav-stacked"
+        },
+        {
+          "label": "Justified",
+          "type": "switch",
+          "on": "nav-justified"
+        }
+      ]
+    }
   },
-  "sections": {
+  "section-switch": {
     "label": "Layout",
-    "type": "section-toggle",
+    "type": "section-switch",
     "values": [
       {
         "label": "Basic",
