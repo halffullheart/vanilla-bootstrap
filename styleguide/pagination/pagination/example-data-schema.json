@@ -1,34 +1,44 @@
 {
   "paginationClasses": {
-    "type": "css-class",
-    "staticClasses": ["pagination"],
-    "optionalClasses": [
-      {
-        "label": "Size",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Large",
-            "value": "pagination-lg"
-          },
-          {
-            "label": "Default",
-            "value": ""
-          },
-          {
-            "label": "Small",
-            "value": "pagination-sm"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "pagination"
+        },
+        {
+          "label": "Size",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Large",
+              "value": "pagination-lg"
+            },
+            {
+              "label": "Small",
+              "value": "pagination-sm"
+            }
+          ]
+        }
+      ]
+    }
   },
   "disabledItemsMarkup": {
     "label": "Markup for disabled items",
-    "type": "section-toggle",
+    "type": "section-switch",
     "value": [
-      "anchors",
-      "spans"
+      {
+        "label": "Link",
+        "value": "anchors"
+      },
+      {
+        "label": "Link",
+        "value": "spans"
+      }
     ]
   }
 }
