@@ -1,33 +1,30 @@
 {
-  "genericClasses": {
-    "type": "css-class",
-    "optionalClasses": [
-      {
-        "label": "Disable buttons",
-        "type": "optional-string",
-        "value": "disabled"
-      }
-    ]
+  "itemClasses": {
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "label": "Disabled",
+      "type": "switch",
+      "on": "disabled"
+    }
   },
-  "previousClasses": {
-    "type": "css-class",
-    "staticClasses": "previous",
-    "optionalClasses": [
+  "labels": {
+    "label": "Labels",
+    "type": "linked-select",
+    "values": [
       {
-        "label": "Disable previous button",
-        "type": "optional-string",
-        "value": "disabled"
-      }
-    ]
-  },
-  "nextClasses": {
-    "type": "css-class",
-    "staticClasses": "next",
-    "optionalClasses": [
+        "label": "« » Previous/Next",
+        "value": {
+          "previousText": "« Previous",
+          "nextText": "Next »"
+        }
+      },
       {
-        "label": "Disable next button",
-        "type": "optional-string",
-        "value": "disabled"
+        "label": "← → Older/Newer",
+        "value": {
+          "previousText": "← Older",
+          "nextText": "Newer →"
+        }
       }
     ]
   }
