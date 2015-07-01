@@ -1,64 +1,70 @@
 {
   "tableClasses": {
-    "type": "css-class",
-    "staticClasses": ["table"],
-    "optionalClasses": [
-      {
-        "label": "Striped",
-        "type": "optional-string",
-        "value": "table-striped"
-      },
-      {
-        "label": "Bordered",
-        "type": "optional-string",
-        "value": "table-bordered"
-      },
-      {
-        "label": "Hover rows",
-        "type": "optional-string",
-        "value": "table-hover"
-      },
-      {
-        "label": "Condensed",
-        "type": "optional-string",
-        "value": "table-condensed"
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "table"
+        },
+        {
+          "label": "Striped",
+          "type": "switch",
+          "on": "table-striped"
+        },
+        {
+          "label": "Bordered",
+          "type": "switch",
+          "on": "table-bordered"
+        },
+        {
+          "label": "Hover rows",
+          "type": "switch",
+          "on": "table-hover"
+        },
+        {
+          "label": "Condensed",
+          "type": "switch",
+          "on": "table-condensed"
+        }
+      ]
+    }
   },
   "contextClasses": {
-    "type": "css-class",
-    "optionalClasses": [
-      {
-        "label": "Context",
-        "type": "enum",
-        "values": [
-          {
-            "label": "Active",
-            "value": "active"
-          },
-          {
-            "label": "Success",
-            "value": "success"
-          },
-          {
-            "label": "Warning",
-            "value": "warning"
-          },
-          {
-            "label": "Danger",
-            "value": "danger"
-          },
-          {
-            "label": "Info",
-            "value": "info"
-          }
-        ]
-      }
-    ]
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "label": "Context",
+      "type": "select",
+      "values": [
+        {
+          "label": "Active",
+          "value": "active"
+        },
+        {
+          "label": "Success",
+          "value": "success"
+        },
+        {
+          "label": "Warning",
+          "value": "warning"
+        },
+        {
+          "label": "Danger",
+          "value": "danger"
+        },
+        {
+          "label": "Info",
+          "value": "info"
+        }
+      ]
+    }
   },
   "sections": {
     "label": "Display",
-    "type": "section-toggle",
+    "type": "section-switch",
     "values": [
       {
         "label": "Basic",
