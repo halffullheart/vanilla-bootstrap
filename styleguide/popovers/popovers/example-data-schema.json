@@ -1,7 +1,7 @@
 {
   "placement": {
     "label": "Popover placement",
-    "type": "enum",
+    "type": "select",
     "values": [
       {
         "label": "Left",
@@ -23,7 +23,7 @@
   },
   "dismissible": {
     "label": "Dismissible",
-    "type": "section-toggle",
+    "type": "section-switch",
     "values": [
       "default",
       "dismissible"

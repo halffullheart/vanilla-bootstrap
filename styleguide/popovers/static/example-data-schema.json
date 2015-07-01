@@ -1,7 +1,7 @@
 {
   "placement": {
     "label": "Popover placement",
-    "type": "enum",
+    "type": "select",
     "values": [
       {
         "label": "Left",
