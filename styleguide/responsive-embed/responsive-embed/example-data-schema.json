@@ -1,7 +1,7 @@
 {
   "aspectRatio": {
     "label": "Aspect ratio",
-    "type": "enum",
+    "type": "select",
     "values": [
       {
         "label": "16:9",
