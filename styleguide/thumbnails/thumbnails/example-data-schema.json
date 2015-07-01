@@ -1,7 +1,7 @@
 {
   "sections": {
     "label": "Content",
-    "type": "section-toggle",
+    "type": "section-switch",
     "values": [
       {
         "label": "Basic",
