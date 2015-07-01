@@ -9,7 +9,7 @@
   "pause": {
     "label": "Pause while hovering",
     "type": "switch",
-    "value": "hover"
+    "on": "hover"
   },
   "wrap": {
     "label": "Cycle continuously",

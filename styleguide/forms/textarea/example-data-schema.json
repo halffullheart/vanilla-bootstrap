@@ -70,7 +70,7 @@
       {
         "label": "Read only",
         "type": "switch",
-        "value": " readonly"
+        "on": " readonly"
       }
     ]
   }

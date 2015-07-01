@@ -38,12 +38,12 @@
         {
           "label": "Striped",
           "type": "switch",
-          "value": "progress-bar-striped"
+          "on": "progress-bar-striped"
         },
         {
           "label": "Animated",
           "type": "switch",
-          "value": "active"
+          "on": "active"
         }
       ]
     }
