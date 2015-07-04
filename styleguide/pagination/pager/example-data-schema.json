@@ -14,14 +14,14 @@
     "values": [
       {
         "label": "« » Previous/Next",
-        "value": {
+        "values": {
           "previousText": "« Previous",
           "nextText": "Next »"
         }
       },
       {
         "label": "← → Older/Newer",
-        "value": {
+        "values": {
           "previousText": "← Older",
           "nextText": "Newer →"
         }
