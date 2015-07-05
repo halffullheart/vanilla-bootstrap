@@ -29,7 +29,7 @@
   },
   "disabledItemsMarkup": {
     "label": "Markup for disabled items",
-    "type": "section-switch",
+    "type": "section-select",
     "value": [
       {
         "label": "Link",
