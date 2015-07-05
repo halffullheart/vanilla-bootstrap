@@ -75,7 +75,7 @@
   },
   "sections": {
     "label": "Layout",
-    "type": "section-switch",
+    "type": "section-select",
     "values": [
       {
         "label": "Default",

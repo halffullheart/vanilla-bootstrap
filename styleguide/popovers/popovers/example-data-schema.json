@@ -23,7 +23,7 @@
   },
   "dismissible": {
     "label": "Dismissible",
-    "type": "section-switch",
+    "type": "section-select",
     "values": [
       "default",
       "dismissible"

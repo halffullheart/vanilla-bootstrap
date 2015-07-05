@@ -64,7 +64,7 @@
   },
   "sections": {
     "label": "Display",
-    "type": "section-switch",
+    "type": "section-select",
     "values": [
       {
         "label": "Basic",
