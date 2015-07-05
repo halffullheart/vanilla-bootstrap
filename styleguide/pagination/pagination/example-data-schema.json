@@ -30,7 +30,7 @@
   "disabledItemsMarkup": {
     "label": "Markup for disabled items",
     "type": "section-select",
-    "value": [
+    "values": [
       {
         "label": "Link",
         "value": "anchors"
