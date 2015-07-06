@@ -12,11 +12,8 @@
         {
           "label": "Context",
           "type": "select",
+          "optional": true,
           "values": [
-            {
-              "label": "None",
-              "value": ""
-            },
             {
               "label": "Success",
               "value": "progress-bar-success"
