@@ -3,17 +3,26 @@
     "type": "attribute",
     "key": "class",
     "value": {
-      "label": "Well size",
-      "type": "select",
-      "optional": true,
+      "type": "group",
       "values": [
         {
-          "label": "Large",
-          "value": "well-lg"
+          "type": "const",
+          "value": "well"
         },
         {
-          "label": "Small",
-          "value": "well-sm"
+          "label": "Well size",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Large",
+              "value": "well-lg"
+            },
+            {
+              "label": "Small",
+              "value": "well-sm"
+            }
+          ]
         }
       ]
     }
