@@ -10,7 +10,7 @@
           "value": "alert"
         },
         {
-          "label": "Alert level",
+          "label": "Alert Level",
           "type": "select",
           "values": [
             {
