@@ -12,11 +12,8 @@
         {
           "label": "Validation",
           "type": "select",
+          "optional": true,
           "values": [
-            {
-              "label": "None",
-              "value": ""
-            },
             {
               "label": "Success",
               "value": "has-success"
@@ -34,7 +31,7 @@
       ]
     }
   },
-  "selectClasses": {
+  "selectAttrs": {
     "type": "group",
     "values": [
       {
@@ -66,7 +63,7 @@
         }
       },
       {
-        "label": "Select multiple values",
+        "label": "Select Multiple Values",
         "type": "switch",
         "on": "multiple"
       },
