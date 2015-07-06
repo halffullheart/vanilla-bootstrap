@@ -41,7 +41,7 @@
           "on": "progress-bar-striped"
         },
         {
-          "label": "Animated",
+          "label": "Animate Stripes",
           "type": "switch",
           "on": "active"
         }
