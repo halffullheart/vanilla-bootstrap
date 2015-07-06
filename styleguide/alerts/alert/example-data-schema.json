@@ -49,7 +49,7 @@
           "value": "alert-dismissible"
         },
         {
-          "label": "Alert level",
+          "label": "Dismissable Alert Level",
           "type": "select",
           "values": [
             {
