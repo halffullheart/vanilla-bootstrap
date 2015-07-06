@@ -45,11 +45,6 @@
               "value": "form-control"
             },
             {
-              "label": "Disabled",
-              "type": "switch",
-              "on": "disabled"
-            },
-            {
               "label": "Size",
               "type": "select",
               "optional": true,
@@ -68,9 +63,14 @@
         }
       },
       {
-        "label": "Read only",
+        "label": "Read Only",
         "type": "switch",
         "on": " readonly"
+      },
+      {
+        "label": "Disabled",
+        "type": "switch",
+        "on": "disabled"
       }
     ]
   },
