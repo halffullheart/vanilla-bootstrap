@@ -1,12 +1,28 @@
 {
-  "itemClasses": {
-    "type": "attribute",
-    "key": "class",
-    "value": {
-      "label": "Disabled",
-      "type": "switch",
-      "on": "disabled"
-    }
+  "disabled": {
+    "label": "Disabled",
+    "type": "switch",
+    "on": "disabled"
+  },
+  "alignment": {
+    "label": "Alignment",
+    "type": "linked-select",
+    "values": [
+      {
+        "label": "Default",
+        "values": {
+          "alignPrevious": "",
+          "alignNext": ""
+        }
+      },
+      {
+        "label": "Align to Sides of Page",
+        "values": {
+          "alignPrevious": "previous",
+          "alignNext": "next"
+        }
+      }
+    ]
   },
   "labels": {
     "label": "Labels",
