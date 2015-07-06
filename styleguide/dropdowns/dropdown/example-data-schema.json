@@ -1,16 +1,8 @@
 {
   "openDirection": {
     "label": "Open direction",
-    "type": "select",
-    "values": [
-      {
-        "label": "Down",
-        "value": "dropdown"
-      },
-      {
-        "label": "Up",
-        "value": "dropup"
-      }
-    ]
+    "type": "switch",
+    "on": "dropup",
+    "off": "dropdown"
   }
 }
