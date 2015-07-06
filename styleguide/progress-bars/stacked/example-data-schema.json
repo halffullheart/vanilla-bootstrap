@@ -38,7 +38,7 @@
           "on": "progress-bar-striped"
         },
         {
-          "label": "Bar 1 Animated",
+          "label": "Bar 1 Animate Stripes",
           "type": "switch",
           "on": "active"
         }
@@ -84,7 +84,7 @@
           "on": "progress-bar-striped"
         },
         {
-          "label": "Bar 2 Animated",
+          "label": "Bar 2 Animate Stripes",
           "type": "switch",
           "on": "active"
         }
@@ -96,14 +96,16 @@
     "type": "number",
     "min": 0,
     "max": 100,
-    "step": 1
+    "step": 1,
+    "default": 20
   },
   "bar2Percent": {
     "label": "Bar 1 %",
     "type": "number",
     "min": 0,
     "max": 100,
-    "step": 1
+    "step": 1,
+    "default": 20
   },
   "sections": {
     "label": "Method of labeling",
