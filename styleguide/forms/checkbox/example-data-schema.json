@@ -38,9 +38,18 @@
     "type": "attribute",
     "key": "class",
     "value": {
-      "label": "Disabled (label)",
-      "type": "switch",
-      "on": "disabled"
+      "type": "group",
+      "values": [
+        {
+          "type": "const",
+          "value": "checkbox"
+        },
+        {
+          "label": "Disabled (label)",
+          "type": "switch",
+          "on": "disabled"
+        }
+      ]
     }
   },
   "disabled": {
