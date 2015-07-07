@@ -3027,8 +3027,8 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
 
 .btn-danger {
   color: #fff;
-  background-color: #f000ff;
-  border-color: #d800e6; }
+  background-color: #000000;
+  border-color: black; }
   .btn-danger:hover,
   .btn-danger:focus,
   .btn-danger.focus,
@@ -3036,8 +3036,8 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   .btn-danger.active,
   .open > .btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #c000cc;
-    border-color: #9e00a8; }
+    background-color: black;
+    border-color: black; }
   .btn-danger:active,
   .btn-danger.active,
   .open > .btn-danger.dropdown-toggle {
@@ -3060,10 +3060,10 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   fieldset[disabled] .btn-danger.focus,
   fieldset[disabled] .btn-danger:active,
   fieldset[disabled] .btn-danger.active {
-    background-color: #f000ff;
-    border-color: #d800e6; }
+    background-color: #000000;
+    border-color: black; }
   .btn-danger .badge {
-    color: #f000ff;
+    color: #000000;
     background-color: #fff; }
 
 .btn-link {
@@ -4320,10 +4320,10 @@ a.label:focus {
     background-color: #ec971f; }
 
 .label-danger {
-  background-color: #f000ff; }
+  background-color: #000000; }
   .label-danger[href]:hover,
   .label-danger[href]:focus {
-    background-color: #c000cc; }
+    background-color: black; }
 
 .badge {
   display: inline-block;
@@ -4553,7 +4553,7 @@ a.thumbnail.active {
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 .progress-bar-danger {
-  background-color: #f000ff; }
+  background-color: #000000; }
   .progress-striped .progress-bar-danger {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
