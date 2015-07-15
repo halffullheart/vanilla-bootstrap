@@ -1,6 +1,6 @@
 {
   "openDirection": {
-    "label": "Open direction",
+    "label": "Open Upward",
     "type": "switch",
     "on": "dropup",
     "off": "dropdown"
