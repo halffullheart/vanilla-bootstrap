@@ -59,7 +59,7 @@
     "values": [
       {
         "label": "Only for screen readers",
-        "value": "default"
+        "value": "standard"
       },
       {
         "label": "Visually",
