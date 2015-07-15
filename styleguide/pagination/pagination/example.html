@@ -1,26 +1,26 @@
 <nav>
   <ul {{paginationClasses}}>
     <li class="disabled">
-      {{#anchors}}
+      {% if anchors %}
         <a href="#" aria-label="Previous">
           <span aria-hidden="true">&laquo;</span>
         </a>
-      {{/anchors}}
-      {{#spans}}
+      {% endif %}
+      {% if spans %}
         <span>
           <span aria-hidden="true">&laquo;</span>
         </span>
-      {{/spans}}
+      {% endif %}
     </li>
     <li class="active">
-      {{#anchors}}
+      {% if anchors %}
         <a href="#">1
           <span class="sr-only">(current)</span>
         </a>
-      {{/anchors}}
-      {{#spans}}
+      {% endif %}
+      {% if spans %}
         <span>1 <span class="sr-only">(current)</span></span>
-      {{/spans}}
+      {% endif %}
     </li>
     <li><a href="#">2</a></li>
     <li><a href="#">3</a></li>

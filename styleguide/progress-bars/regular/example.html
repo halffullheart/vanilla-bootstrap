@@ -1,12 +1,12 @@
 <div class="progress">
-  {{#standard}}
+  {% if standard %}
   <div {{progressClasses}} role="progressbar" aria-valuenow="{{percent}}" style="width: {{percent}}%;">
     <span class="sr-only">{{percent}}% Complete</span>
   </div>
-  {{/standard}}
-  {{#label}}
+  {% endif %}
+  {% if label %}
   <div {{progressClasses}} role="progressbar" aria-valuenow="{{percent}}" style="width: {{percent}}%;">
     {{percent}}%
   </div>
-  {{/label}}
+  {% endif %}
 </div>

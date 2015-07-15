@@ -1,11 +1,11 @@
-{{#standard}}
+{% if standard %}
 <ul {{navClasses}}>
   <li role="presentation" class="active"><a href="#">Home</a></li>
   <li role="presentation"><a href="#">Profile</a></li>
   <li role="presentation"><a href="#">Messages</a></li>
 </ul>
-{{/standard}}
-{{#dropdown}}
+{% endif %}
+{% if dropdown %}
 <ul {{navClasses}}>
   <li role="presentation" class="active"><a href="#">Home</a></li>
   <li role="presentation"><a href="#">Help</a></li>
@@ -22,4 +22,4 @@
     </ul>
   </li>
 </ul>
-{{/dropdown}}
+{% endif %}

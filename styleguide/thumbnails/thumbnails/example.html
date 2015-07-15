@@ -1,4 +1,4 @@
-{{#standard}}
+{% if standard %}
 <div class="row">
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
@@ -21,9 +21,9 @@
     </a>
   </div>
 </div>
-{{/standard}}
+{% endif %}
 
-{{#content}}
+{% if content %}
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -56,4 +56,4 @@
     </div>
   </div>
 </div>
-{{/content}}
+{% endif %}

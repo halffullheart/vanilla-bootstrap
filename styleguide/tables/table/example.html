@@ -1,4 +1,4 @@
-{{#standard}}
+{% if standard %}
 <table {{tableClasses}}>
   <tr>
     <th>#</th>
@@ -26,9 +26,9 @@
     <th>Purple</th>
   </tr>
 </table>
-{{/standard}}
+{% endif %}
 
-{{#responsive}}
+{% if responsive %}
 <div class="table-responsive">
   <table {{tableClasses}}>
     <tr>
@@ -58,4 +58,4 @@
     </tr>
   </table>
 </div>
-{{/responsive}}
+{% endif %}
